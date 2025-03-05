@@ -9,6 +9,7 @@ import os
 
 from src.model import NeuralNetwork
 from src.utils import one_hot_encode
+from src.optimizers import get_optimizer
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Train a Feedforward Neural Network on Fashion-MNIST or MNIST")
@@ -47,8 +48,6 @@ def main():
     else:
         (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
-
-
     # Preprocess: flatten images and normalize pixel values
     X_train = X_train.reshape(X_train.shape[0], -1) / 255.0
     X_test = X_test.reshape(X_test.shape[0], -1) / 255.0
@@ -77,4 +76,16 @@ def main():
                        weight_init=config.weight_init,
                        loss_type=config.loss)
     
-    
+    # Initialize optimizer
+    optimizer = get_optimizer(config.optimizer,
+                              nn.parameters,
+                              learning_rate=config.learning_rate,
+                              momentum=config.momentum,
+                              beta=config.beta,
+                              beta1=config.beta1,
+                              beta2=config.beta2,
+                              epsilon=config.epsilon,
+                              weight_decay=config.weight_decay)
+
+    num_batches = int(np.ceil(X_train.shape[0] / config.batch_size))
+   

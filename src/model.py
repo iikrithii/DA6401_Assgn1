@@ -1,5 +1,7 @@
 # model.py
 import numpy as np
+from src.activation import activations
+from src.loss import loss_functions
 
 class NeuralNetwork:
     def __init__(self, 
@@ -25,6 +27,17 @@ class NeuralNetwork:
         self.hidden_size = hidden_size
         self.num_layers = num_layers
         self.output_size = output_size
+
+        # Load activation and its derivative from activations.py
+        if activation not in activations:
+            raise ValueError(f"Unsupported activation function '{activation}'")
+        self.activation, self.activation_deriv = activations[activation]
+
+        # Load loss and its derivative from losses.py
+        if loss_type not in loss_functions:
+            raise ValueError(f"Unsupported loss function '{loss_type}'")
+        self.loss_func, self.loss_deriv = loss_functions[loss_type]
+        self.loss_type = loss_type
 
         # Initialize parameters (weights and biases)
         self.parameters = {}
@@ -71,6 +84,7 @@ class NeuralNetwork:
 
         # For cross_entropy, apply softmax
         if self.loss_type == "cross_entropy":
+            # numerical stability trick
             exp_scores = np.exp(a_L - np.max(a_L, axis=1, keepdims=True))
             y_hat = exp_scores / np.sum(exp_scores, axis=1, keepdims=True)
         else:
@@ -86,3 +100,45 @@ class NeuralNetwork:
         """
         _, _, y_hat = self.forward_pass(X)
         return y_hat
+
+    def compute_loss(self, y_pred, y_true):
+        """
+        Compute the loss given predictions and true labels.
+        """
+        return self.loss_func(y_pred, y_true)
+
+    def backward_pass(self, a_list, h_list, Y, y_hat):
+        """
+        Backward pass using the lists of pre-activations (a_list) and 
+        activations (h_list) from forward_pass().
+        Returns:
+          grads: Dictionary of gradients dW1, db1, ..., dWL, dbL.
+        """
+        grads = {}
+        m = Y.shape[0]
+        L = self.num_layers + 1  # total layers = hidden_layers + 1
+
+        # 1) Compute dZ for output layer
+        #    cross_entropy_deriv or mean_squared_error_deriv
+        dZ = self.loss_deriv(y_hat, Y)  
+
+        # Grad for final layer W_L, b_L
+        # h_list[-2] is h_{L-1}
+        grads[f"dW{L}"] = np.dot(h_list[-2].T, dZ) / m
+        grads[f"db{L}"] = np.sum(dZ, axis=0, keepdims=True) / m
+
+        # 2) Backprop through hidden layers in reverse
+        for k in range(L - 1, 0, -1):
+            # derivative wrt h_{k-1}
+            dA = np.dot(dZ, self.parameters[f"W{k+1}"].T)
+
+            # derivative wrt a_{k-1} = dA * g'(a_{k-1})
+            a_k_minus_1 = a_list[k - 1]  
+            dZ = dA * self.activation_deriv(a_k_minus_1)
+
+            # Grad for W_k, b_k
+            grads[f"dW{k}"] = np.dot(h_list[k - 1].T, dZ) / m
+            grads[f"db{k}"] = np.sum(dZ, axis=0, keepdims=True) / m
+
+        return grads
+    
