@@ -1,0 +1,17 @@
+{"time":"2025-03-06T23:13:56.6548873+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_231356-fq5zcjzo\\logs\\debug-core.log"}
+{"time":"2025-03-06T23:13:56.8221507+05:30","level":"INFO","msg":"created new stream","id":"fq5zcjzo"}
+{"time":"2025-03-06T23:13:56.8221507+05:30","level":"INFO","msg":"stream: started","id":"fq5zcjzo"}
+{"time":"2025-03-06T23:13:56.8233038+05:30","level":"INFO","msg":"handler: started","stream_id":"fq5zcjzo"}
+{"time":"2025-03-06T23:13:56.8233038+05:30","level":"INFO","msg":"sender: started","stream_id":"fq5zcjzo"}
+{"time":"2025-03-06T23:13:56.8233038+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fq5zcjzo"}
+{"time":"2025-03-06T23:13:57.218313+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T23:21:29.2330178+05:30","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/fq5zcjzo/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-03-06T23:36:11.8527575+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T23:36:11.8552863+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T23:36:14.3663639+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2355007},{"desc":"updating run config","runtime_seconds":0.0121774}],"total_operations":2}}
+{"time":"2025-03-06T23:36:15.3070429+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T23:36:16.7652245+05:30","level":"INFO","msg":"stream: closing","id":"fq5zcjzo"}
+{"time":"2025-03-06T23:36:16.7652245+05:30","level":"INFO","msg":"handler: closed","stream_id":"fq5zcjzo"}
+{"time":"2025-03-06T23:36:16.7652245+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fq5zcjzo"}
+{"time":"2025-03-06T23:36:16.7666946+05:30","level":"INFO","msg":"sender: closed","stream_id":"fq5zcjzo"}
+{"time":"2025-03-06T23:36:16.7809094+05:30","level":"INFO","msg":"stream: closed","id":"fq5zcjzo"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T16:58:37.1219672+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_165837-gdv9bcmr\\logs\\debug-core.log"}
+{"time":"2025-03-06T16:58:37.2442258+05:30","level":"INFO","msg":"created new stream","id":"gdv9bcmr"}
+{"time":"2025-03-06T16:58:37.2442258+05:30","level":"INFO","msg":"stream: started","id":"gdv9bcmr"}
+{"time":"2025-03-06T16:58:37.2442258+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gdv9bcmr"}
+{"time":"2025-03-06T16:58:37.2450143+05:30","level":"INFO","msg":"handler: started","stream_id":"gdv9bcmr"}
+{"time":"2025-03-06T16:58:37.246029+05:30","level":"INFO","msg":"sender: started","stream_id":"gdv9bcmr"}
+{"time":"2025-03-06T16:58:37.583959+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T16:59:03.3220163+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T16:59:03.3225542+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T16:59:04.3620444+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7228422,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7228422,"progress":"396B/396B"},{"desc":"uploading config.yaml","runtime_seconds":0.4326524,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T16:59:04.9365589+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T16:59:06.3493262+05:30","level":"INFO","msg":"stream: closing","id":"gdv9bcmr"}
+{"time":"2025-03-06T16:59:06.3493262+05:30","level":"INFO","msg":"handler: closed","stream_id":"gdv9bcmr"}
+{"time":"2025-03-06T16:59:06.3493262+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gdv9bcmr"}
+{"time":"2025-03-06T16:59:06.3500397+05:30","level":"INFO","msg":"sender: closed","stream_id":"gdv9bcmr"}
+{"time":"2025-03-06T16:59:06.3582751+05:30","level":"INFO","msg":"stream: closed","id":"gdv9bcmr"}

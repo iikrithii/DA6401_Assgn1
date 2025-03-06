@@ -1,0 +1,16 @@
+{"time":"2025-03-06T20:56:12.2081483+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_205612-uhd5vejf\\logs\\debug-core.log"}
+{"time":"2025-03-06T20:56:12.3416552+05:30","level":"INFO","msg":"created new stream","id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:12.3431825+05:30","level":"INFO","msg":"stream: started","id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:12.3440824+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:12.345665+05:30","level":"INFO","msg":"handler: started","stream_id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:12.345665+05:30","level":"INFO","msg":"sender: started","stream_id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:12.7264413+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T20:56:41.4458716+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T20:56:41.4463791+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T20:56:42.4640315+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7004012,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7004012,"progress":"407B/407B"},{"desc":"uploading config.yaml","runtime_seconds":0.3785439,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T20:56:43.0636151+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T20:56:44.4669285+05:30","level":"INFO","msg":"stream: closing","id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:44.4669285+05:30","level":"INFO","msg":"handler: closed","stream_id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:44.4669285+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:44.4678552+05:30","level":"INFO","msg":"sender: closed","stream_id":"uhd5vejf"}
+{"time":"2025-03-06T20:56:44.4936702+05:30","level":"INFO","msg":"stream: closed","id":"uhd5vejf"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T16:45:38.9930091+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_164538-tgcy31bz\\logs\\debug-core.log"}
+{"time":"2025-03-06T16:45:39.1214067+05:30","level":"INFO","msg":"created new stream","id":"tgcy31bz"}
+{"time":"2025-03-06T16:45:39.1218149+05:30","level":"INFO","msg":"stream: started","id":"tgcy31bz"}
+{"time":"2025-03-06T16:45:39.1218149+05:30","level":"INFO","msg":"sender: started","stream_id":"tgcy31bz"}
+{"time":"2025-03-06T16:45:39.1218149+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tgcy31bz"}
+{"time":"2025-03-06T16:45:39.1218149+05:30","level":"INFO","msg":"handler: started","stream_id":"tgcy31bz"}
+{"time":"2025-03-06T16:45:39.5220253+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T16:46:30.1371612+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T16:46:30.1376677+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T16:46:31.1527996+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3743317,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3743317,"progress":"404B/404B"},{"desc":"uploading config.yaml","runtime_seconds":0.2938591,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T16:46:31.4859972+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T16:46:33.0631865+05:30","level":"INFO","msg":"stream: closing","id":"tgcy31bz"}
+{"time":"2025-03-06T16:46:33.0631865+05:30","level":"INFO","msg":"handler: closed","stream_id":"tgcy31bz"}
+{"time":"2025-03-06T16:46:33.0631865+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tgcy31bz"}
+{"time":"2025-03-06T16:46:33.064588+05:30","level":"INFO","msg":"sender: closed","stream_id":"tgcy31bz"}
+{"time":"2025-03-06T16:46:33.0682335+05:30","level":"INFO","msg":"stream: closed","id":"tgcy31bz"}

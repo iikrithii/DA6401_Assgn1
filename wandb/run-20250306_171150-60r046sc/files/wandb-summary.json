@@ -1,0 +1,1 @@
+{"train_loss":NaN,"_runtime":18.7288286,"epoch":15,"best_val_accuracy":0.105,"val_accuracy":0.105,"best_val_loss":NaN,"_step":15,"best_train_accuracy":0.09916666666666667,"val_loss":NaN,"best_epoch":0,"_timestamp":1.7412613292727404e+09,"_wandb":{"runtime":18},"best_train_loss":NaN,"train_accuracy":0.09944444444444445}

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T20:00:39.1531149+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_200039-pn147kac\\logs\\debug-core.log"}
+{"time":"2025-03-06T20:00:39.2787643+05:30","level":"INFO","msg":"created new stream","id":"pn147kac"}
+{"time":"2025-03-06T20:00:39.2793026+05:30","level":"INFO","msg":"stream: started","id":"pn147kac"}
+{"time":"2025-03-06T20:00:39.2793026+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pn147kac"}
+{"time":"2025-03-06T20:00:39.2793026+05:30","level":"INFO","msg":"sender: started","stream_id":"pn147kac"}
+{"time":"2025-03-06T20:00:39.2793026+05:30","level":"INFO","msg":"handler: started","stream_id":"pn147kac"}
+{"time":"2025-03-06T20:00:39.6469511+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T20:05:24.7140683+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T20:05:24.7145737+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T20:05:25.7318711+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4035714,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4035714,"progress":"392B/392B"},{"desc":"uploading history steps 14-15, summary, console lines 14-14","runtime_seconds":0.3171855},{"desc":"uploading config.yaml","runtime_seconds":0.0818817,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-03-06T20:05:26.0028003+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T20:05:27.3490541+05:30","level":"INFO","msg":"stream: closing","id":"pn147kac"}
+{"time":"2025-03-06T20:05:27.3500627+05:30","level":"INFO","msg":"handler: closed","stream_id":"pn147kac"}
+{"time":"2025-03-06T20:05:27.3500627+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pn147kac"}
+{"time":"2025-03-06T20:05:27.3508071+05:30","level":"INFO","msg":"sender: closed","stream_id":"pn147kac"}
+{"time":"2025-03-06T20:05:27.3573462+05:30","level":"INFO","msg":"stream: closed","id":"pn147kac"}

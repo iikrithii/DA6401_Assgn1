@@ -13,8 +13,8 @@ from src.optimizers import get_optimizer
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Train a Feedforward Neural Network on Fashion-MNIST or MNIST")
-    parser.add_argument('-wp', '--wandb_project', type=str, default="myprojectname", help="Project name used to track experiments in Weights & Biases dashboard")
-    parser.add_argument('-we', '--wandb_entity', type=str, default="myname", help="Wandb Entity used to track experiments in Weights & Biases dashboard")
+    parser.add_argument('-wp', '--wandb_project', type=str, default="Assgn_1", help="Project name used to track experiments in Weights & Biases dashboard")
+    parser.add_argument('-we', '--wandb_entity', type=str, default="ns25z040-indian-institute-of-technology-madras", help="Wandb Entity used to track experiments in Weights & Biases dashboard")
     parser.add_argument('-d', '--dataset', type=str, choices=["mnist", "fashion_mnist"], default="fashion_mnist", help="Dataset to use")
     parser.add_argument('-e', '--epochs', type=int, default=10, help="Number of epochs to train neural network")
     parser.add_argument('-b', '--batch_size', type=int, default=32, help="Batch size used to train neural network")
@@ -31,16 +31,19 @@ def parse_arguments():
     parser.add_argument('-nhl', '--num_layers', type=int, default=3, help="Number of hidden layers used in feedforward neural network")
     parser.add_argument('-sz', '--hidden_size', type=int, default=64, help="Number of neurons in each hidden layer")
     parser.add_argument('-a', '--activation', type=str, choices=["identity", "sigmoid", "tanh", "ReLU"], default="ReLU", help="Activation function to use")
-    args = parser.parse_args()
+    args, unknown = parser.parse_known_args()
     return args
 
 def main():
     args = parse_arguments()
 
     # Initialize wandb
-    run_name = f"hl_{config.num_layers}_bs_{config.batch_size}_ac_{config.activation}"
-    wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args), name=run_name)
+    wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
     config = wandb.config
+
+    run_name = f"hl_{config.num_layers}_hs_{config.hidden_size}_bs_{config.batch_size}_ep_{config.epochs}_ac_{config.activation}_o_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_wi_{config.weight_init}"
+    wandb.run.name = run_name
+    wandb.run.save()
 
     # Load dataset
     if config.dataset == "fashion_mnist":
@@ -89,3 +92,79 @@ def main():
 
     num_batches = int(np.ceil(X_train.shape[0] / config.batch_size))
    
+    best_val_accuracy = 0.0
+    best_epoch= 0
+    best_train_accuracy=0.0
+    best_train_loss= np.inf
+    best_val_loss= np.inf
+
+    # Training loop
+    for epoch in range(config.epochs):
+        # Shuffle training data
+        permutation = np.random.permutation(X_train.shape[0])
+        X_train = X_train[permutation]
+        y_train_encoded = y_train_encoded[permutation]
+
+        epoch_loss = 0.0
+        correct = 0
+
+        for i in range(num_batches):
+            start = i * config.batch_size
+            end = start + config.batch_size
+            X_batch = X_train[start:end]
+            y_batch = y_train_encoded[start:end]
+
+            # Forward pass
+            a_list, h_list, outputs = nn.forward_pass(X_batch)
+
+            # Compute loss
+            loss = nn.compute_loss(outputs, y_batch)
+            epoch_loss+=loss
+
+            # Backward pass
+            grads = nn.backward_pass(a_list, h_list, y_batch, outputs)
+
+            # Update parameters
+            optimizer.update(nn.parameters, grads)
+
+            # Compute training accuracy for this batch
+            predictions = np.argmax(outputs, axis=1)
+            labels = np.argmax(y_batch, axis=1)
+            correct += np.sum(predictions == labels)
+
+        train_accuracy = correct / X_train.shape[0]
+        val_outputs= nn.forward(X_val)
+        val_loss = nn.compute_loss(val_outputs, y_val_encoded)
+        val_predictions = np.argmax(val_outputs, axis=1)
+        val_accuracy = np.mean(val_predictions == y_val)    
+
+        # Log metrics to wandb
+        wandb.log({
+            "epoch": epoch + 1,
+            "train_loss": epoch_loss / num_batches,
+            "train_accuracy": train_accuracy,
+            "val_loss": val_loss,
+            "val_accuracy": val_accuracy,
+        })
+
+        print(f"Epoch {epoch + 1}/{config.epochs} - Train Loss: {epoch_loss / num_batches:.4f}, Train Acc: {train_accuracy:.4f}, Val Loss: {val_loss:.4f}, Val Acc: {val_accuracy:.4f}")
+    
+        # Save best model 
+        if val_accuracy > best_val_accuracy:
+            best_val_accuracy = val_accuracy
+            best_train_accuracy= train_accuracy
+            best_epoch= epoch
+            best_train_loss= epoch_loss / num_batches
+            best_val_loss= val_loss
+
+    # Log metrics to wandb
+    wandb.log({
+        "best_val_accuracy": best_val_accuracy,
+        "best_epoch": best_epoch,
+        "best_train_loss": best_train_loss,
+        "best_train_accuracy": best_train_accuracy,
+        "best_val_loss": best_val_loss,
+    })
+    
+if __name__ == "__main__":
+    main()

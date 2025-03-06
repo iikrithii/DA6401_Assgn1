@@ -1,0 +1,16 @@
+{"time":"2025-03-06T15:24:07.3991929+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_152407-nwm6lnns\\logs\\debug-core.log"}
+{"time":"2025-03-06T15:24:07.5271631+05:30","level":"INFO","msg":"created new stream","id":"nwm6lnns"}
+{"time":"2025-03-06T15:24:07.5276237+05:30","level":"INFO","msg":"stream: started","id":"nwm6lnns"}
+{"time":"2025-03-06T15:24:07.5276237+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nwm6lnns"}
+{"time":"2025-03-06T15:24:07.5276237+05:30","level":"INFO","msg":"handler: started","stream_id":"nwm6lnns"}
+{"time":"2025-03-06T15:24:07.5276237+05:30","level":"INFO","msg":"sender: started","stream_id":"nwm6lnns"}
+{"time":"2025-03-06T15:24:07.8973651+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T15:30:52.9766399+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T15:30:52.9784225+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T15:30:53.9987034+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3131081,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3131081,"progress":"395B/395B"},{"desc":"uploading history steps 14-15, summary, console lines 14-14","runtime_seconds":0.2012747}],"total_operations":3}}
+{"time":"2025-03-06T15:30:55.253391+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T15:30:56.7064017+05:30","level":"INFO","msg":"stream: closing","id":"nwm6lnns"}
+{"time":"2025-03-06T15:30:56.7064017+05:30","level":"INFO","msg":"handler: closed","stream_id":"nwm6lnns"}
+{"time":"2025-03-06T15:30:56.7064017+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nwm6lnns"}
+{"time":"2025-03-06T15:30:56.7114076+05:30","level":"INFO","msg":"sender: closed","stream_id":"nwm6lnns"}
+{"time":"2025-03-06T15:30:56.7345883+05:30","level":"INFO","msg":"stream: closed","id":"nwm6lnns"}

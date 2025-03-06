@@ -1,0 +1,16 @@
+{"time":"2025-03-06T14:43:25.6842677+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_144325-zlcpbpvq\\logs\\debug-core.log"}
+{"time":"2025-03-06T14:43:25.8183441+05:30","level":"INFO","msg":"created new stream","id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:25.8188027+05:30","level":"INFO","msg":"handler: started","stream_id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:25.8188027+05:30","level":"INFO","msg":"stream: started","id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:25.8188027+05:30","level":"INFO","msg":"sender: started","stream_id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:25.8188027+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:26.1840759+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T14:43:53.8875638+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T14:43:53.8880727+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T14:43:54.8952244+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6737853,"progress":"1.3KB/1.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3728005,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-06T14:43:55.5440713+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T14:43:57.1826432+05:30","level":"INFO","msg":"stream: closing","id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:57.1826432+05:30","level":"INFO","msg":"handler: closed","stream_id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:57.1826432+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:57.1841556+05:30","level":"INFO","msg":"sender: closed","stream_id":"zlcpbpvq"}
+{"time":"2025-03-06T14:43:57.2010754+05:30","level":"INFO","msg":"stream: closed","id":"zlcpbpvq"}

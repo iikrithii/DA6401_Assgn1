@@ -1,0 +1,16 @@
+{"time":"2025-03-06T18:15:09.531377+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_181509-y38dtool\\logs\\debug-core.log"}
+{"time":"2025-03-06T18:15:09.6587652+05:30","level":"INFO","msg":"created new stream","id":"y38dtool"}
+{"time":"2025-03-06T18:15:09.6587652+05:30","level":"INFO","msg":"stream: started","id":"y38dtool"}
+{"time":"2025-03-06T18:15:09.6607793+05:30","level":"INFO","msg":"sender: started","stream_id":"y38dtool"}
+{"time":"2025-03-06T18:15:09.6607793+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"y38dtool"}
+{"time":"2025-03-06T18:15:09.6613836+05:30","level":"INFO","msg":"handler: started","stream_id":"y38dtool"}
+{"time":"2025-03-06T18:15:10.0261023+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T18:16:25.4074629+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T18:16:25.408429+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T18:16:26.4287064+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.3093164,"progress":"381B/381B"},{"desc":"uploading output.log","runtime_seconds":0.3093164,"progress":"1.3KB/1.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.0319488,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T18:16:26.7540595+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T18:16:28.1073289+05:30","level":"INFO","msg":"stream: closing","id":"y38dtool"}
+{"time":"2025-03-06T18:16:28.1073289+05:30","level":"INFO","msg":"handler: closed","stream_id":"y38dtool"}
+{"time":"2025-03-06T18:16:28.1073289+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"y38dtool"}
+{"time":"2025-03-06T18:16:28.1084252+05:30","level":"INFO","msg":"sender: closed","stream_id":"y38dtool"}
+{"time":"2025-03-06T18:16:28.1348218+05:30","level":"INFO","msg":"stream: closed","id":"y38dtool"}

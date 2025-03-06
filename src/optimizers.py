@@ -1,5 +1,6 @@
 # optimizers.py
 import numpy as np
+import inspect
 
 class SGD:
     def __init__(self, parameters, learning_rate=1e-3, weight_decay=0.0):
@@ -80,8 +81,17 @@ def get_optimizer(opt_name, parameters, **kwargs):
     Returns:
       An instance of the selected optimizer.
     """
-    if opt_name in optimizer_dict:
-        return optimizer_dict[opt_name](parameters, **kwargs)
-    else:
+    if opt_name not in optimizer_dict:
         raise ValueError(f"Unsupported optimizer '{opt_name}'")
+    
+    optimizer_class = optimizer_dict[opt_name]
+    
+    # Get the signature of the __init__ method, ignoring 'self' and 'parameters'
+    sig = inspect.signature(optimizer_class.__init__)
+    accepted_params = set(sig.parameters.keys()) - {'self', 'parameters'}
+    
+    # Filter kwargs to include only those accepted by the optimizer
+    filtered_kwargs = {k: v for k, v in kwargs.items() if k in accepted_params}
+    
+    return optimizer_class(parameters, **filtered_kwargs)
     

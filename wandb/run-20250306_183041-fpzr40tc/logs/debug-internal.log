@@ -1,0 +1,16 @@
+{"time":"2025-03-06T18:30:41.8031773+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_183041-fpzr40tc\\logs\\debug-core.log"}
+{"time":"2025-03-06T18:30:41.9344553+05:30","level":"INFO","msg":"created new stream","id":"fpzr40tc"}
+{"time":"2025-03-06T18:30:41.9344553+05:30","level":"INFO","msg":"stream: started","id":"fpzr40tc"}
+{"time":"2025-03-06T18:30:41.9344553+05:30","level":"INFO","msg":"handler: started","stream_id":"fpzr40tc"}
+{"time":"2025-03-06T18:30:41.9349852+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fpzr40tc"}
+{"time":"2025-03-06T18:30:41.9349852+05:30","level":"INFO","msg":"sender: started","stream_id":"fpzr40tc"}
+{"time":"2025-03-06T18:30:42.3212392+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T18:31:09.515038+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T18:31:09.5155432+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T18:31:10.4808213+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T18:31:10.5275754+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 8-15, summary, console lines 8-14","runtime_seconds":0.0457564}],"total_operations":1}}
+{"time":"2025-03-06T18:31:12.0247477+05:30","level":"INFO","msg":"stream: closing","id":"fpzr40tc"}
+{"time":"2025-03-06T18:31:12.0247477+05:30","level":"INFO","msg":"handler: closed","stream_id":"fpzr40tc"}
+{"time":"2025-03-06T18:31:12.0247477+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fpzr40tc"}
+{"time":"2025-03-06T18:31:12.0259541+05:30","level":"INFO","msg":"sender: closed","stream_id":"fpzr40tc"}
+{"time":"2025-03-06T18:31:12.0290692+05:30","level":"INFO","msg":"stream: closed","id":"fpzr40tc"}

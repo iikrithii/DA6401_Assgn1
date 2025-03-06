@@ -1,0 +1,16 @@
+{"time":"2025-03-06T18:33:13.944476+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_183313-wovieybv\\logs\\debug-core.log"}
+{"time":"2025-03-06T18:33:14.0657019+05:30","level":"INFO","msg":"created new stream","id":"wovieybv"}
+{"time":"2025-03-06T18:33:14.0662385+05:30","level":"INFO","msg":"stream: started","id":"wovieybv"}
+{"time":"2025-03-06T18:33:14.0662385+05:30","level":"INFO","msg":"handler: started","stream_id":"wovieybv"}
+{"time":"2025-03-06T18:33:14.0662385+05:30","level":"INFO","msg":"sender: started","stream_id":"wovieybv"}
+{"time":"2025-03-06T18:33:14.0662385+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wovieybv"}
+{"time":"2025-03-06T18:33:14.4499678+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T18:33:37.4157058+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T18:33:37.4162345+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T18:33:38.4124551+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T18:33:38.4292807+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 10-15, summary, console lines 10-14","runtime_seconds":0.0168256}],"total_operations":1}}
+{"time":"2025-03-06T18:33:39.7705908+05:30","level":"INFO","msg":"stream: closing","id":"wovieybv"}
+{"time":"2025-03-06T18:33:39.7705908+05:30","level":"INFO","msg":"handler: closed","stream_id":"wovieybv"}
+{"time":"2025-03-06T18:33:39.7705908+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wovieybv"}
+{"time":"2025-03-06T18:33:39.7715914+05:30","level":"INFO","msg":"sender: closed","stream_id":"wovieybv"}
+{"time":"2025-03-06T18:33:39.7771985+05:30","level":"INFO","msg":"stream: closed","id":"wovieybv"}

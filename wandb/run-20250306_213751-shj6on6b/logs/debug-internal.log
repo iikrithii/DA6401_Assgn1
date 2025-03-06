@@ -1,0 +1,27 @@
+{"time":"2025-03-06T21:37:52.0005955+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_213751-shj6on6b\\logs\\debug-core.log"}
+{"time":"2025-03-06T21:37:52.1310339+05:30","level":"INFO","msg":"created new stream","id":"shj6on6b"}
+{"time":"2025-03-06T21:37:52.1314646+05:30","level":"INFO","msg":"stream: started","id":"shj6on6b"}
+{"time":"2025-03-06T21:37:52.1314646+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"shj6on6b"}
+{"time":"2025-03-06T21:37:52.1319758+05:30","level":"INFO","msg":"handler: started","stream_id":"shj6on6b"}
+{"time":"2025-03-06T21:37:52.1329912+05:30","level":"INFO","msg":"sender: started","stream_id":"shj6on6b"}
+{"time":"2025-03-06T21:37:52.5154278+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T21:38:23.3145714+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/shj6on6b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:25.7560318+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/shj6on6b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:30.2323408+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/shj6on6b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:38.6012814+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/shj6on6b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:41.8900755+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.105:54440->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-06T21:38:43.9235389+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:46.8058159+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T21:38:46.8063212+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T21:38:47.8129967+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 4-7, console lines 4-7","runtime_seconds":24.5028981,"error_status":"retrying: Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/shj6on6b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}],"total_operations":1}}
+{"time":"2025-03-06T21:38:48.6602059+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:56.8677297+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/shj6on6b/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:38:57.4214495+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:39:15.246237+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T21:39:48.576417+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-06T21:39:55.8659839+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T21:39:57.3207157+05:30","level":"INFO","msg":"stream: closing","id":"shj6on6b"}
+{"time":"2025-03-06T21:39:57.3207157+05:30","level":"INFO","msg":"handler: closed","stream_id":"shj6on6b"}
+{"time":"2025-03-06T21:39:57.3207157+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"shj6on6b"}
+{"time":"2025-03-06T21:39:57.3213683+05:30","level":"INFO","msg":"sender: closed","stream_id":"shj6on6b"}
+{"time":"2025-03-06T21:39:57.3469245+05:30","level":"INFO","msg":"stream: closed","id":"shj6on6b"}

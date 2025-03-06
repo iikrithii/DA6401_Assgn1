@@ -1,0 +1,16 @@
+{"time":"2025-03-06T21:30:46.5649256+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_213046-pv6handr\\logs\\debug-core.log"}
+{"time":"2025-03-06T21:30:46.697024+05:30","level":"INFO","msg":"created new stream","id":"pv6handr"}
+{"time":"2025-03-06T21:30:46.6976347+05:30","level":"INFO","msg":"handler: started","stream_id":"pv6handr"}
+{"time":"2025-03-06T21:30:46.6976347+05:30","level":"INFO","msg":"stream: started","id":"pv6handr"}
+{"time":"2025-03-06T21:30:46.6976347+05:30","level":"INFO","msg":"sender: started","stream_id":"pv6handr"}
+{"time":"2025-03-06T21:30:46.6976347+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pv6handr"}
+{"time":"2025-03-06T21:30:47.2527546+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T21:32:14.6699787+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T21:32:14.6704853+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T21:32:15.6837737+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-06T21:32:16.1669693+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T21:32:17.5278708+05:30","level":"INFO","msg":"stream: closing","id":"pv6handr"}
+{"time":"2025-03-06T21:32:17.5278708+05:30","level":"INFO","msg":"handler: closed","stream_id":"pv6handr"}
+{"time":"2025-03-06T21:32:17.5278708+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pv6handr"}
+{"time":"2025-03-06T21:32:17.5278708+05:30","level":"INFO","msg":"sender: closed","stream_id":"pv6handr"}
+{"time":"2025-03-06T21:32:17.5315246+05:30","level":"INFO","msg":"stream: closed","id":"pv6handr"}

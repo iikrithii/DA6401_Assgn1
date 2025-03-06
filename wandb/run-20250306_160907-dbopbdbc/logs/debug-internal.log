@@ -1,0 +1,16 @@
+{"time":"2025-03-06T16:09:07.5594803+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_160907-dbopbdbc\\logs\\debug-core.log"}
+{"time":"2025-03-06T16:09:07.6983794+05:30","level":"INFO","msg":"created new stream","id":"dbopbdbc"}
+{"time":"2025-03-06T16:09:07.6983794+05:30","level":"INFO","msg":"stream: started","id":"dbopbdbc"}
+{"time":"2025-03-06T16:09:07.6993916+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dbopbdbc"}
+{"time":"2025-03-06T16:09:07.6993916+05:30","level":"INFO","msg":"handler: started","stream_id":"dbopbdbc"}
+{"time":"2025-03-06T16:09:07.7003881+05:30","level":"INFO","msg":"sender: started","stream_id":"dbopbdbc"}
+{"time":"2025-03-06T16:09:08.2002887+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T16:10:45.5621698+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T16:10:45.562675+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T16:10:46.5791107+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4027143,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4027143,"progress":"406B/406B"},{"desc":"uploading config.yaml","runtime_seconds":0.1010869,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T16:10:47.4807347+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T16:10:48.91422+05:30","level":"INFO","msg":"stream: closing","id":"dbopbdbc"}
+{"time":"2025-03-06T16:10:48.91422+05:30","level":"INFO","msg":"handler: closed","stream_id":"dbopbdbc"}
+{"time":"2025-03-06T16:10:48.91422+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dbopbdbc"}
+{"time":"2025-03-06T16:10:48.9151044+05:30","level":"INFO","msg":"sender: closed","stream_id":"dbopbdbc"}
+{"time":"2025-03-06T16:10:48.9226236+05:30","level":"INFO","msg":"stream: closed","id":"dbopbdbc"}

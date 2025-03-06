@@ -1,0 +1,16 @@
+{"time":"2025-03-06T22:40:45.0488819+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_224045-5qgoam50\\logs\\debug-core.log"}
+{"time":"2025-03-06T22:40:45.1797184+05:30","level":"INFO","msg":"created new stream","id":"5qgoam50"}
+{"time":"2025-03-06T22:40:45.1797184+05:30","level":"INFO","msg":"stream: started","id":"5qgoam50"}
+{"time":"2025-03-06T22:40:45.1797184+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"5qgoam50"}
+{"time":"2025-03-06T22:40:45.1804745+05:30","level":"INFO","msg":"handler: started","stream_id":"5qgoam50"}
+{"time":"2025-03-06T22:40:45.1804745+05:30","level":"INFO","msg":"sender: started","stream_id":"5qgoam50"}
+{"time":"2025-03-06T22:40:45.603725+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T22:42:36.5991956+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T22:42:36.5997057+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T22:42:37.6112321+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3718667,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3718667,"progress":"392B/392B"},{"desc":"uploading config.yaml","runtime_seconds":0.0241901,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T22:42:37.9561512+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T22:42:39.487458+05:30","level":"INFO","msg":"stream: closing","id":"5qgoam50"}
+{"time":"2025-03-06T22:42:39.487458+05:30","level":"INFO","msg":"handler: closed","stream_id":"5qgoam50"}
+{"time":"2025-03-06T22:42:39.487458+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"5qgoam50"}
+{"time":"2025-03-06T22:42:39.487458+05:30","level":"INFO","msg":"sender: closed","stream_id":"5qgoam50"}
+{"time":"2025-03-06T22:42:39.4932566+05:30","level":"INFO","msg":"stream: closed","id":"5qgoam50"}

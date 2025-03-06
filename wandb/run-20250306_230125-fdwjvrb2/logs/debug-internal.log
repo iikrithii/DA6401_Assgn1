@@ -1,0 +1,17 @@
+{"time":"2025-03-06T23:01:25.6701699+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_230125-fdwjvrb2\\logs\\debug-core.log"}
+{"time":"2025-03-06T23:01:25.8256227+05:30","level":"INFO","msg":"created new stream","id":"fdwjvrb2"}
+{"time":"2025-03-06T23:01:25.8256227+05:30","level":"INFO","msg":"stream: started","id":"fdwjvrb2"}
+{"time":"2025-03-06T23:01:25.8256227+05:30","level":"INFO","msg":"handler: started","stream_id":"fdwjvrb2"}
+{"time":"2025-03-06T23:01:25.8256227+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fdwjvrb2"}
+{"time":"2025-03-06T23:01:25.8256227+05:30","level":"INFO","msg":"sender: started","stream_id":"fdwjvrb2"}
+{"time":"2025-03-06T23:01:26.5045257+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T23:07:32.1130208+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/Assgn_1/fdwjvrb2/file_stream\": unexpected EOF"}
+{"time":"2025-03-06T23:13:32.2087321+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T23:13:32.210219+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T23:13:33.2388351+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3384754,"progress":"1.3KB/1.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3384754,"progress":"409B/409B"},{"desc":"uploading config.yaml","runtime_seconds":0.0298019,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T23:13:33.773791+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T23:13:35.35695+05:30","level":"INFO","msg":"stream: closing","id":"fdwjvrb2"}
+{"time":"2025-03-06T23:13:35.35695+05:30","level":"INFO","msg":"handler: closed","stream_id":"fdwjvrb2"}
+{"time":"2025-03-06T23:13:35.35695+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fdwjvrb2"}
+{"time":"2025-03-06T23:13:35.3746639+05:30","level":"INFO","msg":"sender: closed","stream_id":"fdwjvrb2"}
+{"time":"2025-03-06T23:13:35.3941124+05:30","level":"INFO","msg":"stream: closed","id":"fdwjvrb2"}

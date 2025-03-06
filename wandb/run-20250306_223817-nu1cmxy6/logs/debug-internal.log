@@ -1,0 +1,19 @@
+{"time":"2025-03-06T22:38:17.0715198+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_223817-nu1cmxy6\\logs\\debug-core.log"}
+{"time":"2025-03-06T22:38:17.2107513+05:30","level":"INFO","msg":"created new stream","id":"nu1cmxy6"}
+{"time":"2025-03-06T22:38:17.2107513+05:30","level":"INFO","msg":"stream: started","id":"nu1cmxy6"}
+{"time":"2025-03-06T22:38:17.2112819+05:30","level":"INFO","msg":"handler: started","stream_id":"nu1cmxy6"}
+{"time":"2025-03-06T22:38:17.2112819+05:30","level":"INFO","msg":"sender: started","stream_id":"nu1cmxy6"}
+{"time":"2025-03-06T22:38:17.2137997+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nu1cmxy6"}
+{"time":"2025-03-06T22:38:17.6036177+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T22:38:46.7087149+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T22:38:46.7098813+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T22:38:47.728212+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7116998,"progress":"1.3KB/1.3KB"}],"total_operations":1}}
+{"time":"2025-03-06T22:39:17.0658441+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-06T22:39:48.2785275+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-06T22:39:49.205214+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-03-06T22:39:54.0628615+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T22:39:55.4329364+05:30","level":"INFO","msg":"stream: closing","id":"nu1cmxy6"}
+{"time":"2025-03-06T22:39:55.4329364+05:30","level":"INFO","msg":"handler: closed","stream_id":"nu1cmxy6"}
+{"time":"2025-03-06T22:39:55.4329364+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nu1cmxy6"}
+{"time":"2025-03-06T22:39:55.4340999+05:30","level":"INFO","msg":"sender: closed","stream_id":"nu1cmxy6"}
+{"time":"2025-03-06T22:39:55.4378851+05:30","level":"INFO","msg":"stream: closed","id":"nu1cmxy6"}

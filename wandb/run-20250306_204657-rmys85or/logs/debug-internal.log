@@ -1,0 +1,16 @@
+{"time":"2025-03-06T20:46:57.7953479+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_204657-rmys85or\\logs\\debug-core.log"}
+{"time":"2025-03-06T20:46:57.9366128+05:30","level":"INFO","msg":"created new stream","id":"rmys85or"}
+{"time":"2025-03-06T20:46:57.9366128+05:30","level":"INFO","msg":"stream: started","id":"rmys85or"}
+{"time":"2025-03-06T20:46:57.9370829+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rmys85or"}
+{"time":"2025-03-06T20:46:57.9375966+05:30","level":"INFO","msg":"sender: started","stream_id":"rmys85or"}
+{"time":"2025-03-06T20:46:57.9386214+05:30","level":"INFO","msg":"handler: started","stream_id":"rmys85or"}
+{"time":"2025-03-06T20:46:58.5831701+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T20:47:42.1637441+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T20:47:42.1642507+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T20:47:43.1272618+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T20:47:43.176239+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 10-15, summary, console lines 10-14","runtime_seconds":0.0489772}],"total_operations":1}}
+{"time":"2025-03-06T20:47:44.4815619+05:30","level":"INFO","msg":"stream: closing","id":"rmys85or"}
+{"time":"2025-03-06T20:47:44.4815619+05:30","level":"INFO","msg":"handler: closed","stream_id":"rmys85or"}
+{"time":"2025-03-06T20:47:44.4815619+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rmys85or"}
+{"time":"2025-03-06T20:47:44.4855011+05:30","level":"INFO","msg":"sender: closed","stream_id":"rmys85or"}
+{"time":"2025-03-06T20:47:44.4855011+05:30","level":"INFO","msg":"stream: closed","id":"rmys85or"}

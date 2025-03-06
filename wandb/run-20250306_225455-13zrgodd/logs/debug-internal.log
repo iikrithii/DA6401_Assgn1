@@ -1,0 +1,16 @@
+{"time":"2025-03-06T22:54:55.5478402+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_225455-13zrgodd\\logs\\debug-core.log"}
+{"time":"2025-03-06T22:54:55.7071771+05:30","level":"INFO","msg":"created new stream","id":"13zrgodd"}
+{"time":"2025-03-06T22:54:55.7071771+05:30","level":"INFO","msg":"stream: started","id":"13zrgodd"}
+{"time":"2025-03-06T22:54:55.7071771+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"13zrgodd"}
+{"time":"2025-03-06T22:54:55.7071771+05:30","level":"INFO","msg":"handler: started","stream_id":"13zrgodd"}
+{"time":"2025-03-06T22:54:55.7071771+05:30","level":"INFO","msg":"sender: started","stream_id":"13zrgodd"}
+{"time":"2025-03-06T22:54:57.1870537+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T23:01:10.1730043+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T23:01:10.1748458+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T23:01:11.182729+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.2781241}],"total_operations":1}}
+{"time":"2025-03-06T23:01:13.2758352+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T23:01:14.6556416+05:30","level":"INFO","msg":"stream: closing","id":"13zrgodd"}
+{"time":"2025-03-06T23:01:14.6556416+05:30","level":"INFO","msg":"handler: closed","stream_id":"13zrgodd"}
+{"time":"2025-03-06T23:01:14.6556416+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"13zrgodd"}
+{"time":"2025-03-06T23:01:14.6600219+05:30","level":"INFO","msg":"sender: closed","stream_id":"13zrgodd"}
+{"time":"2025-03-06T23:01:14.6719394+05:30","level":"INFO","msg":"stream: closed","id":"13zrgodd"}

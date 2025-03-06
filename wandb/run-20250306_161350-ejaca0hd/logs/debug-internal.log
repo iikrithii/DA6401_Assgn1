@@ -1,0 +1,16 @@
+{"time":"2025-03-06T16:13:50.2989687+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_161350-ejaca0hd\\logs\\debug-core.log"}
+{"time":"2025-03-06T16:13:50.4323028+05:30","level":"INFO","msg":"created new stream","id":"ejaca0hd"}
+{"time":"2025-03-06T16:13:50.4323028+05:30","level":"INFO","msg":"stream: started","id":"ejaca0hd"}
+{"time":"2025-03-06T16:13:50.4359839+05:30","level":"INFO","msg":"sender: started","stream_id":"ejaca0hd"}
+{"time":"2025-03-06T16:13:50.4359839+05:30","level":"INFO","msg":"handler: started","stream_id":"ejaca0hd"}
+{"time":"2025-03-06T16:13:50.4364895+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ejaca0hd"}
+{"time":"2025-03-06T16:13:50.8221615+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T16:14:17.5332237+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T16:14:17.5337799+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T16:14:18.5072206+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T16:14:18.5518159+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 8-15, summary, console lines 10-16","runtime_seconds":0.0445953}],"total_operations":1}}
+{"time":"2025-03-06T16:14:19.8702078+05:30","level":"INFO","msg":"stream: closing","id":"ejaca0hd"}
+{"time":"2025-03-06T16:14:19.8702078+05:30","level":"INFO","msg":"handler: closed","stream_id":"ejaca0hd"}
+{"time":"2025-03-06T16:14:19.8702078+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ejaca0hd"}
+{"time":"2025-03-06T16:14:19.8715219+05:30","level":"INFO","msg":"sender: closed","stream_id":"ejaca0hd"}
+{"time":"2025-03-06T16:14:19.8761733+05:30","level":"INFO","msg":"stream: closed","id":"ejaca0hd"}

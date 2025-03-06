@@ -1,0 +1,16 @@
+{"time":"2025-03-06T18:46:32.802731+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_184632-z680ipxi\\logs\\debug-core.log"}
+{"time":"2025-03-06T18:46:32.9475211+05:30","level":"INFO","msg":"created new stream","id":"z680ipxi"}
+{"time":"2025-03-06T18:46:32.9475211+05:30","level":"INFO","msg":"stream: started","id":"z680ipxi"}
+{"time":"2025-03-06T18:46:32.9475211+05:30","level":"INFO","msg":"handler: started","stream_id":"z680ipxi"}
+{"time":"2025-03-06T18:46:32.9475211+05:30","level":"INFO","msg":"sender: started","stream_id":"z680ipxi"}
+{"time":"2025-03-06T18:46:32.9480586+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"z680ipxi"}
+{"time":"2025-03-06T18:46:33.3184983+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T18:47:31.1786112+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T18:47:31.179154+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T18:47:32.1622141+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T18:47:32.1933332+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 11-15, summary, console lines 11-14","runtime_seconds":0.0311191}],"total_operations":1}}
+{"time":"2025-03-06T18:47:33.509142+05:30","level":"INFO","msg":"stream: closing","id":"z680ipxi"}
+{"time":"2025-03-06T18:47:33.509142+05:30","level":"INFO","msg":"handler: closed","stream_id":"z680ipxi"}
+{"time":"2025-03-06T18:47:33.509142+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"z680ipxi"}
+{"time":"2025-03-06T18:47:33.509142+05:30","level":"INFO","msg":"sender: closed","stream_id":"z680ipxi"}
+{"time":"2025-03-06T18:47:33.5136286+05:30","level":"INFO","msg":"stream: closed","id":"z680ipxi"}

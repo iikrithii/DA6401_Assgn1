@@ -1,0 +1,16 @@
+{"time":"2025-03-06T14:46:17.3907467+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_144617-amuogwer\\logs\\debug-core.log"}
+{"time":"2025-03-06T14:46:17.5192602+05:30","level":"INFO","msg":"created new stream","id":"amuogwer"}
+{"time":"2025-03-06T14:46:17.5198765+05:30","level":"INFO","msg":"stream: started","id":"amuogwer"}
+{"time":"2025-03-06T14:46:17.5198765+05:30","level":"INFO","msg":"handler: started","stream_id":"amuogwer"}
+{"time":"2025-03-06T14:46:17.5198765+05:30","level":"INFO","msg":"sender: started","stream_id":"amuogwer"}
+{"time":"2025-03-06T14:46:17.5198765+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"amuogwer"}
+{"time":"2025-03-06T14:46:17.9056845+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T14:46:54.1672901+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T14:46:54.1678012+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T14:46:55.1832925+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6778722,"progress":"403B/403B"},{"desc":"uploading config.yaml","runtime_seconds":0.3470459,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-06T14:46:55.8854223+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T14:46:57.7107289+05:30","level":"INFO","msg":"stream: closing","id":"amuogwer"}
+{"time":"2025-03-06T14:46:57.7107289+05:30","level":"INFO","msg":"handler: closed","stream_id":"amuogwer"}
+{"time":"2025-03-06T14:46:57.7107289+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"amuogwer"}
+{"time":"2025-03-06T14:46:57.7113583+05:30","level":"INFO","msg":"sender: closed","stream_id":"amuogwer"}
+{"time":"2025-03-06T14:46:57.7250548+05:30","level":"INFO","msg":"stream: closed","id":"amuogwer"}

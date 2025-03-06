@@ -1,0 +1,16 @@
+{"time":"2025-03-06T17:45:54.1696005+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_174553-hdw5afi5\\logs\\debug-core.log"}
+{"time":"2025-03-06T17:45:54.4524619+05:30","level":"INFO","msg":"created new stream","id":"hdw5afi5"}
+{"time":"2025-03-06T17:45:54.4531477+05:30","level":"INFO","msg":"stream: started","id":"hdw5afi5"}
+{"time":"2025-03-06T17:45:54.4536303+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hdw5afi5"}
+{"time":"2025-03-06T17:45:54.4551531+05:30","level":"INFO","msg":"handler: started","stream_id":"hdw5afi5"}
+{"time":"2025-03-06T17:45:54.4567387+05:30","level":"INFO","msg":"sender: started","stream_id":"hdw5afi5"}
+{"time":"2025-03-06T17:45:55.0865369+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T17:55:06.4505369+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T17:55:06.4510443+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T17:55:07.4710461+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4287071,"progress":"409B/409B"},{"desc":"uploading output.log","runtime_seconds":0.4287071,"progress":"1.3KB/1.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1015679,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-06T17:55:07.8433012+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T17:55:09.4077557+05:30","level":"INFO","msg":"stream: closing","id":"hdw5afi5"}
+{"time":"2025-03-06T17:55:09.4077557+05:30","level":"INFO","msg":"handler: closed","stream_id":"hdw5afi5"}
+{"time":"2025-03-06T17:55:09.4077557+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hdw5afi5"}
+{"time":"2025-03-06T17:55:09.4077557+05:30","level":"INFO","msg":"sender: closed","stream_id":"hdw5afi5"}
+{"time":"2025-03-06T17:55:09.4258012+05:30","level":"INFO","msg":"stream: closed","id":"hdw5afi5"}

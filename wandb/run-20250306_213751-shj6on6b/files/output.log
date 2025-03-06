@@ -1,0 +1,16 @@
+Epoch 1/15 - Train Loss: 1.0962, Train Acc: 0.6568, Val Loss: 0.7072, Val Acc: 0.7647
+Epoch 2/15 - Train Loss: 0.6315, Train Acc: 0.7891, Val Loss: 0.5646, Val Acc: 0.8080
+Epoch 3/15 - Train Loss: 0.5392, Train Acc: 0.8150, Val Loss: 0.5100, Val Acc: 0.8198
+Epoch 4/15 - Train Loss: 0.4975, Train Acc: 0.8274, Val Loss: 0.4814, Val Acc: 0.8275
+Epoch 5/15 - Train Loss: 0.4723, Train Acc: 0.8346, Val Loss: 0.4622, Val Acc: 0.8337
+Epoch 6/15 - Train Loss: 0.4536, Train Acc: 0.8416, Val Loss: 0.4550, Val Acc: 0.8318
+Epoch 7/15 - Train Loss: 0.4397, Train Acc: 0.8456, Val Loss: 0.4333, Val Acc: 0.8417
+Epoch 8/15 - Train Loss: 0.4275, Train Acc: 0.8506, Val Loss: 0.4231, Val Acc: 0.8460
+Epoch 9/15 - Train Loss: 0.4174, Train Acc: 0.8543, Val Loss: 0.4172, Val Acc: 0.8470
+Epoch 10/15 - Train Loss: 0.4079, Train Acc: 0.8574, Val Loss: 0.4087, Val Acc: 0.8500
+Epoch 11/15 - Train Loss: 0.4011, Train Acc: 0.8604, Val Loss: 0.4084, Val Acc: 0.8513
+[34m[1mwandb[0m: Network error (ConnectionError), entering retry loop.
+Epoch 12/15 - Train Loss: 0.3935, Train Acc: 0.8624, Val Loss: 0.3987, Val Acc: 0.8530
+Epoch 13/15 - Train Loss: 0.3875, Train Acc: 0.8641, Val Loss: 0.3965, Val Acc: 0.8557
+Epoch 14/15 - Train Loss: 0.3823, Train Acc: 0.8659, Val Loss: 0.3934, Val Acc: 0.8540
+Epoch 15/15 - Train Loss: 0.3766, Train Acc: 0.8675, Val Loss: 0.3861, Val Acc: 0.8595

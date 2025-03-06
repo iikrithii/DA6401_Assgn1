@@ -1,0 +1,16 @@
+{"time":"2025-03-06T14:57:20.776762+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250306_145720-bnfunnqm\\logs\\debug-core.log"}
+{"time":"2025-03-06T14:57:20.8978512+05:30","level":"INFO","msg":"created new stream","id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:20.8978512+05:30","level":"INFO","msg":"handler: started","stream_id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:20.8978512+05:30","level":"INFO","msg":"stream: started","id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:20.8978512+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:20.8978512+05:30","level":"INFO","msg":"sender: started","stream_id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:21.2871406+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T14:57:46.1846498+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T14:57:46.1851536+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T14:57:47.1932877+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T14:57:47.2015612+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 9-15, summary, console lines 9-14","runtime_seconds":0.0075757}],"total_operations":1}}
+{"time":"2025-03-06T14:57:48.5759346+05:30","level":"INFO","msg":"stream: closing","id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:48.5759346+05:30","level":"INFO","msg":"handler: closed","stream_id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:48.5759346+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:48.5770842+05:30","level":"INFO","msg":"sender: closed","stream_id":"bnfunnqm"}
+{"time":"2025-03-06T14:57:48.6038746+05:30","level":"INFO","msg":"stream: closed","id":"bnfunnqm"}
