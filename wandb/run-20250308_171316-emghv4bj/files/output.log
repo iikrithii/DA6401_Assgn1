@@ -1,0 +1,18 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/20 - Train Loss: 0.5199, Train Acc: 0.8150, Val Loss: 0.4718, Val Acc: 0.8337
+Epoch 2/20 - Train Loss: 0.3828, Train Acc: 0.8616, Val Loss: 0.3749, Val Acc: 0.8633
+Epoch 3/20 - Train Loss: 0.3474, Train Acc: 0.8727, Val Loss: 0.3876, Val Acc: 0.8620
+Epoch 4/20 - Train Loss: 0.3248, Train Acc: 0.8802, Val Loss: 0.3449, Val Acc: 0.8707
+Epoch 5/20 - Train Loss: 0.3063, Train Acc: 0.8869, Val Loss: 0.3457, Val Acc: 0.8743
+Epoch 6/20 - Train Loss: 0.2927, Train Acc: 0.8917, Val Loss: 0.3545, Val Acc: 0.8712
+Epoch 7/20 - Train Loss: 0.2798, Train Acc: 0.8959, Val Loss: 0.3295, Val Acc: 0.8798
+Epoch 8/20 - Train Loss: 0.2699, Train Acc: 0.8991, Val Loss: 0.3435, Val Acc: 0.8800
+Traceback (most recent call last):
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 196, in <module>
+    main()
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 129, in main
+    optimizer.update(nn.parameters, grads)
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\optimizers.py", line 93, in update
+    parameters[key] -= self.learning_rate * (m_hat + self.weight_decay * parameters[key]) / (np.sqrt(v_hat) + self.epsilon)
+                                                                                             ^^^^^^^^^^^^^^
+KeyboardInterrupt

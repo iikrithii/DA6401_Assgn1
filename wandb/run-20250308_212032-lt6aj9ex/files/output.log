@@ -1,0 +1,12 @@
+Epoch 1/10 - Train Loss: 0.2867, Train Acc: 0.8115, Val Loss: 0.2543, Val Acc: 0.8257
+Epoch 2/10 - Train Loss: 0.2176, Train Acc: 0.8529, Val Loss: 0.2065, Val Acc: 0.8608
+Epoch 3/10 - Train Loss: 0.2026, Train Acc: 0.8627, Val Loss: 0.2061, Val Acc: 0.8675
+Epoch 4/10 - Train Loss: 0.1967, Train Acc: 0.8668, Val Loss: 0.1978, Val Acc: 0.8622
+Epoch 5/10 - Train Loss: 0.1916, Train Acc: 0.8711, Val Loss: 0.2032, Val Acc: 0.8650
+Epoch 6/10 - Train Loss: 0.1871, Train Acc: 0.8747, Val Loss: 0.2008, Val Acc: 0.8658
+[34m[1mwandb[0m: Network error (ConnectionError), entering retry loop.
+Epoch 7/10 - Train Loss: 0.1850, Train Acc: 0.8764, Val Loss: 0.1866, Val Acc: 0.8718
+Epoch 8/10 - Train Loss: 0.1825, Train Acc: 0.8778, Val Loss: 0.1908, Val Acc: 0.8700
+Epoch 9/10 - Train Loss: 0.1806, Train Acc: 0.8791, Val Loss: 0.2122, Val Acc: 0.8563
+Epoch 10/10 - Train Loss: 0.1794, Train Acc: 0.8802, Val Loss: 0.1875, Val Acc: 0.8735
+[34m[1mwandb[0m: [33mWARNING[0m Ignoring project 'DA6401_Assignment1' when running a sweep.

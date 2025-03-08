@@ -1,0 +1,16 @@
+{"time":"2025-03-08T21:30:20.3851978+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_213020-mou4087w\\logs\\debug-core.log"}
+{"time":"2025-03-08T21:30:21.5316474+05:30","level":"INFO","msg":"created new stream","id":"mou4087w"}
+{"time":"2025-03-08T21:30:21.5316474+05:30","level":"INFO","msg":"stream: started","id":"mou4087w"}
+{"time":"2025-03-08T21:30:21.5321799+05:30","level":"INFO","msg":"handler: started","stream_id":"mou4087w"}
+{"time":"2025-03-08T21:30:21.5321799+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mou4087w"}
+{"time":"2025-03-08T21:30:21.5321799+05:30","level":"INFO","msg":"sender: started","stream_id":"mou4087w"}
+{"time":"2025-03-08T21:30:21.985234+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T21:30:44.8222106+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T21:30:44.8228115+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T21:30:45.835356+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7058066,"progress":"522B/522B"},{"desc":"uploading media\\plotly\\confusion_matrix_7_985efb48c7b588cc815e.plotly.json","runtime_seconds":0.7051887,"progress":"28.1KB/28.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.394134,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T21:30:46.6421915+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T21:30:48.0467786+05:30","level":"INFO","msg":"stream: closing","id":"mou4087w"}
+{"time":"2025-03-08T21:30:48.0467786+05:30","level":"INFO","msg":"handler: closed","stream_id":"mou4087w"}
+{"time":"2025-03-08T21:30:48.0472984+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mou4087w"}
+{"time":"2025-03-08T21:30:48.0472984+05:30","level":"INFO","msg":"sender: closed","stream_id":"mou4087w"}
+{"time":"2025-03-08T21:30:48.0513983+05:30","level":"INFO","msg":"stream: closed","id":"mou4087w"}

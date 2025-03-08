@@ -1,0 +1,16 @@
+{"time":"2025-03-09T00:42:06.0079188+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250309_004205-67a6u4im\\logs\\debug-core.log"}
+{"time":"2025-03-09T00:42:07.1512223+05:30","level":"INFO","msg":"created new stream","id":"67a6u4im"}
+{"time":"2025-03-09T00:42:07.1519211+05:30","level":"INFO","msg":"stream: started","id":"67a6u4im"}
+{"time":"2025-03-09T00:42:07.1519211+05:30","level":"INFO","msg":"handler: started","stream_id":"67a6u4im"}
+{"time":"2025-03-09T00:42:07.1519211+05:30","level":"INFO","msg":"sender: started","stream_id":"67a6u4im"}
+{"time":"2025-03-09T00:42:07.1519211+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"67a6u4im"}
+{"time":"2025-03-09T00:42:07.6154644+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T00:42:46.1431968+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T00:42:46.1443753+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T00:42:47.1504978+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_86571a4755ced79265de.plotly.json","runtime_seconds":0.7015755,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.7015755,"progress":"958B/958B"},{"desc":"uploading config.yaml","runtime_seconds":0.3748294,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-09T00:42:47.955355+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:42:49.4850734+05:30","level":"INFO","msg":"stream: closing","id":"67a6u4im"}
+{"time":"2025-03-09T00:42:49.4850734+05:30","level":"INFO","msg":"handler: closed","stream_id":"67a6u4im"}
+{"time":"2025-03-09T00:42:49.4850734+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"67a6u4im"}
+{"time":"2025-03-09T00:42:49.4850734+05:30","level":"INFO","msg":"sender: closed","stream_id":"67a6u4im"}
+{"time":"2025-03-09T00:42:49.494027+05:30","level":"INFO","msg":"stream: closed","id":"67a6u4im"}

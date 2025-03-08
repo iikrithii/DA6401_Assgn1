@@ -1,0 +1,16 @@
+{"time":"2025-03-09T02:01:09.5984291+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250309_020109-sfzhb72o\\logs\\debug-core.log"}
+{"time":"2025-03-09T02:01:09.7348852+05:30","level":"INFO","msg":"created new stream","id":"sfzhb72o"}
+{"time":"2025-03-09T02:01:09.7348852+05:30","level":"INFO","msg":"stream: started","id":"sfzhb72o"}
+{"time":"2025-03-09T02:01:09.7353553+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sfzhb72o"}
+{"time":"2025-03-09T02:01:09.7358658+05:30","level":"INFO","msg":"handler: started","stream_id":"sfzhb72o"}
+{"time":"2025-03-09T02:01:09.7358658+05:30","level":"INFO","msg":"sender: started","stream_id":"sfzhb72o"}
+{"time":"2025-03-09T02:01:10.1041908+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T02:03:06.8654808+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T02:03:06.8671851+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T02:03:07.868305+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_32_11279f6ac430d3b5894b.plotly.json","runtime_seconds":0.466733,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.466733,"progress":"2.7KB/2.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1695794,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-09T02:03:08.7152545+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T02:03:10.138196+05:30","level":"INFO","msg":"stream: closing","id":"sfzhb72o"}
+{"time":"2025-03-09T02:03:10.138196+05:30","level":"INFO","msg":"handler: closed","stream_id":"sfzhb72o"}
+{"time":"2025-03-09T02:03:10.138196+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sfzhb72o"}
+{"time":"2025-03-09T02:03:10.1622378+05:30","level":"INFO","msg":"sender: closed","stream_id":"sfzhb72o"}
+{"time":"2025-03-09T02:03:10.1755904+05:30","level":"INFO","msg":"stream: closed","id":"sfzhb72o"}

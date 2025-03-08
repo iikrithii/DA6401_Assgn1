@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:57:13.5103404+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_235713-hbxpa614\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:57:14.6527677+05:30","level":"INFO","msg":"created new stream","id":"hbxpa614"}
+{"time":"2025-03-08T23:57:14.6527677+05:30","level":"INFO","msg":"stream: started","id":"hbxpa614"}
+{"time":"2025-03-08T23:57:14.6532287+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hbxpa614"}
+{"time":"2025-03-08T23:57:14.6532287+05:30","level":"INFO","msg":"sender: started","stream_id":"hbxpa614"}
+{"time":"2025-03-08T23:57:14.6537317+05:30","level":"INFO","msg":"handler: started","stream_id":"hbxpa614"}
+{"time":"2025-03-08T23:57:15.1799173+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:58:25.600109+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:58:26.0196848+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:58:26.6081171+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_a0cfc6c4cb73c661bfea.plotly.json","runtime_seconds":0.3779287,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.2688103,"progress":"958B/958B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2688103,"progress":"666B/666B"}],"total_operations":3}}
+{"time":"2025-03-08T23:58:27.6713389+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:58:29.0432054+05:30","level":"INFO","msg":"stream: closing","id":"hbxpa614"}
+{"time":"2025-03-08T23:58:29.0432054+05:30","level":"INFO","msg":"handler: closed","stream_id":"hbxpa614"}
+{"time":"2025-03-08T23:58:29.0432054+05:30","level":"INFO","msg":"sender: closed","stream_id":"hbxpa614"}
+{"time":"2025-03-08T23:58:29.0432054+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hbxpa614"}
+{"time":"2025-03-08T23:58:29.0482386+05:30","level":"INFO","msg":"stream: closed","id":"hbxpa614"}

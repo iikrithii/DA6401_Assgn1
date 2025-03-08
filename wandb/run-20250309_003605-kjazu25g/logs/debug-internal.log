@@ -1,0 +1,16 @@
+{"time":"2025-03-09T00:36:05.1352005+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250309_003605-kjazu25g\\logs\\debug-core.log"}
+{"time":"2025-03-09T00:36:05.8694368+05:30","level":"INFO","msg":"created new stream","id":"kjazu25g"}
+{"time":"2025-03-09T00:36:05.8694368+05:30","level":"INFO","msg":"stream: started","id":"kjazu25g"}
+{"time":"2025-03-09T00:36:05.8694368+05:30","level":"INFO","msg":"sender: started","stream_id":"kjazu25g"}
+{"time":"2025-03-09T00:36:05.8694368+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kjazu25g"}
+{"time":"2025-03-09T00:36:05.8694368+05:30","level":"INFO","msg":"handler: started","stream_id":"kjazu25g"}
+{"time":"2025-03-09T00:36:06.3032633+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T00:38:17.576471+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T00:38:17.5776185+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T00:38:18.5980704+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.401381,"progress":"658B/658B"},{"desc":"uploading media\\plotly\\confusion_matrix_12_4612471358bc5a3703d9.plotly.json","runtime_seconds":0.401381,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.4019175,"progress":"958B/958B"}],"total_operations":3}}
+{"time":"2025-03-09T00:38:19.2162142+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:38:20.7608539+05:30","level":"INFO","msg":"stream: closing","id":"kjazu25g"}
+{"time":"2025-03-09T00:38:20.7608539+05:30","level":"INFO","msg":"handler: closed","stream_id":"kjazu25g"}
+{"time":"2025-03-09T00:38:20.7608539+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kjazu25g"}
+{"time":"2025-03-09T00:38:20.7608539+05:30","level":"INFO","msg":"sender: closed","stream_id":"kjazu25g"}
+{"time":"2025-03-09T00:38:20.7657664+05:30","level":"INFO","msg":"stream: closed","id":"kjazu25g"}

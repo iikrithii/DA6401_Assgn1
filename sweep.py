@@ -48,6 +48,10 @@ parameters_dict = {
     'activation': {
         'values': ["sigmoid", "tanh", "ReLU"]
     },
+    'loss':{
+        'values': ['mean_squared_error']
+    },
+    
 }
 sweep_config['parameters'] = parameters_dict
 pprint.pprint(sweep_config)

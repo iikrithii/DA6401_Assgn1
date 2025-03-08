@@ -1,0 +1,23 @@
+C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\optimizers.py:114: RuntimeWarning:
+
+overflow encountered in square
+
+C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\loss.py:27: RuntimeWarning:
+
+overflow encountered in square
+
+C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\optimizers.py:120: RuntimeWarning:
+
+invalid value encountered in divide
+Epoch 1/10 - Train Loss: nan, Train Acc: 0.0988, Val Loss: nan, Val Acc: 0.1050
+Epoch 2/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 3/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 4/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 5/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 6/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 7/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 8/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 9/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+Epoch 10/10 - Train Loss: nan, Train Acc: 0.0994, Val Loss: nan, Val Acc: 0.1050
+
+[34m[1mwandb[0m: [33mWARNING[0m Ignoring project 'DA6401_Assignment1' when running a sweep.

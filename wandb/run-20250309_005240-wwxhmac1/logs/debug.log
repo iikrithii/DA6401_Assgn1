@@ -1,0 +1,14 @@
+2025-03-09 00:52:40,310 INFO    Thread-684 (_run_job):40720 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250309_005240-wwxhmac1\logs\debug.log
+2025-03-09 00:52:40,317 INFO    Thread-684 (_run_job):40720 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250309_005240-wwxhmac1\logs\debug-internal.log
+2025-03-09 00:52:40,323 INFO    Thread-684 (_run_job):40720 [wandb_init.py:init():761] calling init triggers
+2025-03-09 00:52:40,327 INFO    Thread-684 (_run_job):40720 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'sigmoid', 'batch_size': 16, 'epochs': 10, 'hidden_size': 128, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'num_layers': 4, 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'Xavier'}
+config: {'_wandb': {}}
+2025-03-09 00:52:40,333 INFO    Thread-684 (_run_job):40720 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-09 00:52:40,380 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_finish():2112] finishing run ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/wwxhmac1
+2025-03-09 00:52:40,386 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-09 00:52:40,391 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_restore():2324] restore
+2025-03-09 00:52:40,398 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_restore():2330] restore done
+2025-03-09 00:52:43,322 INFO    MsgRouterThr:40720 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-09 00:52:43,329 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-09 00:52:43,336 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-09 00:52:43,343 INFO    Thread-684 (_run_job):40720 [wandb_run.py:_footer_sync_info():3919] logging synced files

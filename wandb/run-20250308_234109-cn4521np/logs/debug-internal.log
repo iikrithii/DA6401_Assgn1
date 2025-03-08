@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:41:09.9066268+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_234109-cn4521np\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:41:10.1396553+05:30","level":"INFO","msg":"created new stream","id":"cn4521np"}
+{"time":"2025-03-08T23:41:10.1396553+05:30","level":"INFO","msg":"stream: started","id":"cn4521np"}
+{"time":"2025-03-08T23:41:10.1396553+05:30","level":"INFO","msg":"handler: started","stream_id":"cn4521np"}
+{"time":"2025-03-08T23:41:10.1396553+05:30","level":"INFO","msg":"sender: started","stream_id":"cn4521np"}
+{"time":"2025-03-08T23:41:10.1396553+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cn4521np"}
+{"time":"2025-03-08T23:41:10.5127751+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:41:45.9462396+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:41:45.9467454+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:41:46.9524109+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_25c143a69b9771c49db0.plotly.json","runtime_seconds":0.7052475,"progress":"28.2KB/28.2KB"}],"total_operations":1}}
+{"time":"2025-03-08T23:41:46.9936171+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:41:48.3860154+05:30","level":"INFO","msg":"stream: closing","id":"cn4521np"}
+{"time":"2025-03-08T23:41:48.3860154+05:30","level":"INFO","msg":"handler: closed","stream_id":"cn4521np"}
+{"time":"2025-03-08T23:41:48.3860154+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cn4521np"}
+{"time":"2025-03-08T23:41:48.4010144+05:30","level":"INFO","msg":"sender: closed","stream_id":"cn4521np"}
+{"time":"2025-03-08T23:41:48.4247641+05:30","level":"INFO","msg":"stream: closed","id":"cn4521np"}

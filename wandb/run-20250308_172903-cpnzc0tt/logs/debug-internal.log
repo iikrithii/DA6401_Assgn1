@@ -1,0 +1,16 @@
+{"time":"2025-03-08T17:29:03.4247082+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_172903-cpnzc0tt\\logs\\debug-core.log"}
+{"time":"2025-03-08T17:29:03.5438087+05:30","level":"INFO","msg":"created new stream","id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:03.5443465+05:30","level":"INFO","msg":"stream: started","id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:03.5443465+05:30","level":"INFO","msg":"sender: started","stream_id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:03.5443465+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:03.5443465+05:30","level":"INFO","msg":"handler: started","stream_id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:04.2835411+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T17:29:49.992086+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T17:29:49.9925967+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T17:29:50.9977399+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 13-22, summary, console lines 14-20","runtime_seconds":0.7126771},{"desc":"uploading media\\plotly\\confusion_matrix_22_f22795296b4e822cc7a0.plotly.json","runtime_seconds":0.5385726,"progress":"28.1KB/28.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1254322,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T17:29:51.2879571+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T17:29:52.9182498+05:30","level":"INFO","msg":"stream: closing","id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:52.9182498+05:30","level":"INFO","msg":"handler: closed","stream_id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:52.9182498+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:52.9196157+05:30","level":"INFO","msg":"sender: closed","stream_id":"cpnzc0tt"}
+{"time":"2025-03-08T17:29:52.9814972+05:30","level":"INFO","msg":"stream: closed","id":"cpnzc0tt"}

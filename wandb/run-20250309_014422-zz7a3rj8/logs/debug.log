@@ -1,0 +1,14 @@
+2025-03-09 01:44:22,817 INFO    MainThread:30656 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250309_014422-zz7a3rj8\logs\debug.log
+2025-03-09 01:44:22,818 INFO    MainThread:30656 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250309_014422-zz7a3rj8\logs\debug-internal.log
+2025-03-09 01:44:22,818 INFO    MainThread:30656 [wandb_init.py:init():761] calling init triggers
+2025-03-09 01:44:22,819 INFO    MainThread:30656 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-09 01:44:22,819 INFO    MainThread:30656 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-09 01:44:22,860 INFO    MainThread:30656 [wandb_run.py:_finish():2112] finishing run ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/2cc0cd58
+2025-03-09 01:44:22,860 INFO    MainThread:30656 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-09 01:44:22,861 INFO    MainThread:30656 [wandb_run.py:_restore():2324] restore
+2025-03-09 01:44:22,861 INFO    MainThread:30656 [wandb_run.py:_restore():2330] restore done
+2025-03-09 01:44:26,502 INFO    MsgRouterThr:30656 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-09 01:44:26,503 INFO    MainThread:30656 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-09 01:44:26,504 INFO    MainThread:30656 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-09 01:44:26,506 INFO    MainThread:30656 [wandb_run.py:_footer_sync_info():3919] logging synced files

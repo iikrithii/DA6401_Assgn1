@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:58:33.1750958+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_235833-pz7adb1w\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:58:33.3037602+05:30","level":"INFO","msg":"created new stream","id":"pz7adb1w"}
+{"time":"2025-03-08T23:58:33.3037602+05:30","level":"INFO","msg":"stream: started","id":"pz7adb1w"}
+{"time":"2025-03-08T23:58:33.30449+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pz7adb1w"}
+{"time":"2025-03-08T23:58:33.30449+05:30","level":"INFO","msg":"sender: started","stream_id":"pz7adb1w"}
+{"time":"2025-03-08T23:58:33.30449+05:30","level":"INFO","msg":"handler: started","stream_id":"pz7adb1w"}
+{"time":"2025-03-08T23:58:33.7146712+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T00:00:33.3406672+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T00:00:33.3412271+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T00:00:34.3597992+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_b15240b1f139d92e95c0.plotly.json","runtime_seconds":0.3416172,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.3416172,"progress":"958B/958B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3405884,"progress":"645B/645B"},{"desc":"uploading config.yaml","runtime_seconds":0.0052442,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-03-09T00:00:35.5074379+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:00:36.8912123+05:30","level":"INFO","msg":"stream: closing","id":"pz7adb1w"}
+{"time":"2025-03-09T00:00:36.8912123+05:30","level":"INFO","msg":"handler: closed","stream_id":"pz7adb1w"}
+{"time":"2025-03-09T00:00:36.8912123+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pz7adb1w"}
+{"time":"2025-03-09T00:00:36.8920619+05:30","level":"INFO","msg":"sender: closed","stream_id":"pz7adb1w"}
+{"time":"2025-03-09T00:00:36.8974181+05:30","level":"INFO","msg":"stream: closed","id":"pz7adb1w"}

@@ -1,0 +1,17 @@
+{"time":"2025-03-08T14:59:05.6273021+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_145905-lb58b4h7\\logs\\debug-core.log"}
+{"time":"2025-03-08T14:59:05.7629112+05:30","level":"INFO","msg":"created new stream","id":"lb58b4h7"}
+{"time":"2025-03-08T14:59:05.7629112+05:30","level":"INFO","msg":"stream: started","id":"lb58b4h7"}
+{"time":"2025-03-08T14:59:05.7629112+05:30","level":"INFO","msg":"sender: started","stream_id":"lb58b4h7"}
+{"time":"2025-03-08T14:59:05.7629112+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lb58b4h7"}
+{"time":"2025-03-08T14:59:05.7629112+05:30","level":"INFO","msg":"handler: started","stream_id":"lb58b4h7"}
+{"time":"2025-03-08T14:59:06.1676367+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T15:05:11.4382773+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/lb58b4h7/file_stream\": unexpected EOF"}
+{"time":"2025-03-08T15:05:13.3297724+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T15:05:13.3303212+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T15:05:14.4040624+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.0944753,"progress":"1.3KB/1.3KB"}],"total_operations":1}}
+{"time":"2025-03-08T15:05:14.6626941+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T15:05:16.0598515+05:30","level":"INFO","msg":"stream: closing","id":"lb58b4h7"}
+{"time":"2025-03-08T15:05:16.0598515+05:30","level":"INFO","msg":"handler: closed","stream_id":"lb58b4h7"}
+{"time":"2025-03-08T15:05:16.0598515+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lb58b4h7"}
+{"time":"2025-03-08T15:05:16.0603629+05:30","level":"INFO","msg":"sender: closed","stream_id":"lb58b4h7"}
+{"time":"2025-03-08T15:05:16.0676651+05:30","level":"INFO","msg":"stream: closed","id":"lb58b4h7"}

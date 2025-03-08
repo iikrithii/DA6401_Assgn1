@@ -1,0 +1,21 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/20 - Train Loss: 0.4611, Train Acc: 0.7560, Val Loss: 0.2990, Val Acc: 0.8295
+Epoch 2/20 - Train Loss: 0.2762, Train Acc: 0.8404, Val Loss: 0.2614, Val Acc: 0.8457
+Epoch 3/20 - Train Loss: 0.2428, Train Acc: 0.8578, Val Loss: 0.2269, Val Acc: 0.8607
+Epoch 4/20 - Train Loss: 0.2227, Train Acc: 0.8682, Val Loss: 0.2216, Val Acc: 0.8633
+Epoch 5/20 - Train Loss: 0.2092, Train Acc: 0.8752, Val Loss: 0.2121, Val Acc: 0.8647
+Epoch 6/20 - Train Loss: 0.1986, Train Acc: 0.8802, Val Loss: 0.2080, Val Acc: 0.8720
+Epoch 7/20 - Train Loss: 0.1886, Train Acc: 0.8849, Val Loss: 0.2053, Val Acc: 0.8692
+Epoch 8/20 - Train Loss: 0.1818, Train Acc: 0.8890, Val Loss: 0.1914, Val Acc: 0.8770
+Epoch 9/20 - Train Loss: 0.1749, Train Acc: 0.8929, Val Loss: 0.1860, Val Acc: 0.8797
+Epoch 10/20 - Train Loss: 0.1693, Train Acc: 0.8946, Val Loss: 0.1822, Val Acc: 0.8818
+Epoch 11/20 - Train Loss: 0.1647, Train Acc: 0.8980, Val Loss: 0.1830, Val Acc: 0.8840
+Epoch 12/20 - Train Loss: 0.1598, Train Acc: 0.9011, Val Loss: 0.1759, Val Acc: 0.8872
+Epoch 13/20 - Train Loss: 0.1548, Train Acc: 0.9039, Val Loss: 0.1720, Val Acc: 0.8875
+Epoch 14/20 - Train Loss: 0.1510, Train Acc: 0.9061, Val Loss: 0.1772, Val Acc: 0.8830
+Epoch 15/20 - Train Loss: 0.1469, Train Acc: 0.9080, Val Loss: 0.1678, Val Acc: 0.8880
+Epoch 16/20 - Train Loss: 0.1439, Train Acc: 0.9108, Val Loss: 0.1762, Val Acc: 0.8865
+Epoch 17/20 - Train Loss: 0.1402, Train Acc: 0.9132, Val Loss: 0.1700, Val Acc: 0.8877
+Epoch 18/20 - Train Loss: 0.1362, Train Acc: 0.9157, Val Loss: 0.1709, Val Acc: 0.8858
+Epoch 19/20 - Train Loss: 0.1331, Train Acc: 0.9179, Val Loss: 0.1654, Val Acc: 0.8902
+Epoch 20/20 - Train Loss: 0.1295, Train Acc: 0.9190, Val Loss: 0.1660, Val Acc: 0.8913

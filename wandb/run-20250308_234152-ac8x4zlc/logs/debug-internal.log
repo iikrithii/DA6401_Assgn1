@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:41:52.4406538+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_234152-ac8x4zlc\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:41:52.5682188+05:30","level":"INFO","msg":"created new stream","id":"ac8x4zlc"}
+{"time":"2025-03-08T23:41:52.5682188+05:30","level":"INFO","msg":"stream: started","id":"ac8x4zlc"}
+{"time":"2025-03-08T23:41:52.5682188+05:30","level":"INFO","msg":"handler: started","stream_id":"ac8x4zlc"}
+{"time":"2025-03-08T23:41:52.5682188+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ac8x4zlc"}
+{"time":"2025-03-08T23:41:52.5682188+05:30","level":"INFO","msg":"sender: started","stream_id":"ac8x4zlc"}
+{"time":"2025-03-08T23:41:52.9272302+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:44:03.442701+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:44:03.4434343+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:44:04.449469+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_d90ae12319accd73ab14.plotly.json","runtime_seconds":0.4354935,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.4354935,"progress":"958B/958B"},{"desc":"uploading config.yaml","runtime_seconds":0.0330538,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T23:44:04.7645057+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:44:06.2170895+05:30","level":"INFO","msg":"stream: closing","id":"ac8x4zlc"}
+{"time":"2025-03-08T23:44:06.2170895+05:30","level":"INFO","msg":"handler: closed","stream_id":"ac8x4zlc"}
+{"time":"2025-03-08T23:44:06.2170895+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ac8x4zlc"}
+{"time":"2025-03-08T23:44:06.22411+05:30","level":"INFO","msg":"sender: closed","stream_id":"ac8x4zlc"}
+{"time":"2025-03-08T23:44:06.2275785+05:30","level":"INFO","msg":"stream: closed","id":"ac8x4zlc"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-08T21:54:52.0235007+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_215451-p2brdndl\\logs\\debug-core.log"}
+{"time":"2025-03-08T21:54:52.761481+05:30","level":"INFO","msg":"created new stream","id":"p2brdndl"}
+{"time":"2025-03-08T21:54:52.761481+05:30","level":"INFO","msg":"stream: started","id":"p2brdndl"}
+{"time":"2025-03-08T21:54:52.7630875+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p2brdndl"}
+{"time":"2025-03-08T21:54:52.7636091+05:30","level":"INFO","msg":"handler: started","stream_id":"p2brdndl"}
+{"time":"2025-03-08T21:54:52.7685051+05:30","level":"INFO","msg":"sender: started","stream_id":"p2brdndl"}
+{"time":"2025-03-08T21:54:53.2505419+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T21:55:25.9564278+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T21:55:25.9585129+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T21:55:26.969871+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_8424352063fb6bfb2a2c.plotly.json","runtime_seconds":0.5554609,"progress":"28.1KB/28.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1644248,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-08T21:55:27.168521+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T21:55:28.6010064+05:30","level":"INFO","msg":"stream: closing","id":"p2brdndl"}
+{"time":"2025-03-08T21:55:28.6015286+05:30","level":"INFO","msg":"handler: closed","stream_id":"p2brdndl"}
+{"time":"2025-03-08T21:55:28.6015286+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p2brdndl"}
+{"time":"2025-03-08T21:55:28.6015286+05:30","level":"INFO","msg":"sender: closed","stream_id":"p2brdndl"}
+{"time":"2025-03-08T21:55:28.6113005+05:30","level":"INFO","msg":"stream: closed","id":"p2brdndl"}

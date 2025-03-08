@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:38:39.7196733+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_233839-nkf7pc77\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:38:39.8439991+05:30","level":"INFO","msg":"created new stream","id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:39.8439991+05:30","level":"INFO","msg":"stream: started","id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:39.8439991+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:39.8445353+05:30","level":"INFO","msg":"handler: started","stream_id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:39.8445353+05:30","level":"INFO","msg":"sender: started","stream_id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:40.1975907+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:38:55.7757748+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:38:55.7762855+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:38:56.7902811+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_7_5b84a4e82bc125754b75.plotly.json","runtime_seconds":0.7144913,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.7144913,"progress":"522B/522B"},{"desc":"uploading config.yaml","runtime_seconds":0.4281551,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T23:38:57.6051055+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:38:58.9727742+05:30","level":"INFO","msg":"stream: closing","id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:58.9727742+05:30","level":"INFO","msg":"handler: closed","stream_id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:58.9727742+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:58.9730882+05:30","level":"INFO","msg":"sender: closed","stream_id":"nkf7pc77"}
+{"time":"2025-03-08T23:38:58.9772337+05:30","level":"INFO","msg":"stream: closed","id":"nkf7pc77"}

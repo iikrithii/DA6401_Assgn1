@@ -1,0 +1,13 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/30 - Train Loss: 0.5093, Train Acc: 0.8191, Val Loss: 0.3964, Val Acc: 0.8542
+Epoch 2/30 - Train Loss: 0.3670, Train Acc: 0.8668, Val Loss: 0.3701, Val Acc: 0.8673
+Epoch 3/30 - Train Loss: 0.3315, Train Acc: 0.8792, Val Loss: 0.3382, Val Acc: 0.8752
+Traceback (most recent call last):
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 199, in <module>
+    main()
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 128, in main
+    optimizer.update(nn.parameters, grads)
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\optimizers.py", line 123, in update
+    ) / (np.sqrt(v_hat) + self.epsilon)
+         ^^^^^^^^^^^^^^
+KeyboardInterrupt

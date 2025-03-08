@@ -1,0 +1,16 @@
+{"time":"2025-03-08T13:44:01.8764405+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_134401-ozbs761e\\logs\\debug-core.log"}
+{"time":"2025-03-08T13:44:02.128032+05:30","level":"INFO","msg":"created new stream","id":"ozbs761e"}
+{"time":"2025-03-08T13:44:02.128032+05:30","level":"INFO","msg":"stream: started","id":"ozbs761e"}
+{"time":"2025-03-08T13:44:02.128032+05:30","level":"INFO","msg":"handler: started","stream_id":"ozbs761e"}
+{"time":"2025-03-08T13:44:02.128032+05:30","level":"INFO","msg":"sender: started","stream_id":"ozbs761e"}
+{"time":"2025-03-08T13:44:02.1285502+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ozbs761e"}
+{"time":"2025-03-08T13:44:02.6658537+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T13:59:14.2894289+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T13:59:14.3071446+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T13:59:15.3348954+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4282989,"progress":"2.5KB/2.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4282989,"progress":"385B/385B"},{"desc":"uploading config.yaml","runtime_seconds":0.1115678,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T13:59:19.1196331+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T13:59:26.3677085+05:30","level":"INFO","msg":"stream: closing","id":"ozbs761e"}
+{"time":"2025-03-08T13:59:26.3677085+05:30","level":"INFO","msg":"handler: closed","stream_id":"ozbs761e"}
+{"time":"2025-03-08T13:59:26.3677085+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ozbs761e"}
+{"time":"2025-03-08T13:59:26.3697319+05:30","level":"INFO","msg":"sender: closed","stream_id":"ozbs761e"}
+{"time":"2025-03-08T13:59:26.3861276+05:30","level":"INFO","msg":"stream: closed","id":"ozbs761e"}

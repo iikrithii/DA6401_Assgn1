@@ -1,0 +1,18 @@
+{"time":"2025-03-08T21:20:32.4787508+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_212032-lt6aj9ex\\logs\\debug-core.log"}
+{"time":"2025-03-08T21:20:33.6143585+05:30","level":"INFO","msg":"created new stream","id":"lt6aj9ex"}
+{"time":"2025-03-08T21:20:33.6148674+05:30","level":"INFO","msg":"stream: started","id":"lt6aj9ex"}
+{"time":"2025-03-08T21:20:33.6148674+05:30","level":"INFO","msg":"sender: started","stream_id":"lt6aj9ex"}
+{"time":"2025-03-08T21:20:33.6148674+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lt6aj9ex"}
+{"time":"2025-03-08T21:20:33.6148674+05:30","level":"INFO","msg":"handler: started","stream_id":"lt6aj9ex"}
+{"time":"2025-03-08T21:20:34.2291741+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T21:23:19.6491115+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T21:23:20.2027836+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/lt6aj9ex/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T21:26:03.5948796+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T21:26:03.5958603+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T21:26:04.6087351+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_120022868d4faf71d0a6.plotly.json","runtime_seconds":0.3676636,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.3676636,"progress":"1.0KB/1.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3265906,"progress":"645B/645B"}],"total_operations":3}}
+{"time":"2025-03-08T21:26:05.1054407+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T21:26:06.575334+05:30","level":"INFO","msg":"stream: closing","id":"lt6aj9ex"}
+{"time":"2025-03-08T21:26:06.575334+05:30","level":"INFO","msg":"handler: closed","stream_id":"lt6aj9ex"}
+{"time":"2025-03-08T21:26:06.575334+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lt6aj9ex"}
+{"time":"2025-03-08T21:26:06.5757044+05:30","level":"INFO","msg":"sender: closed","stream_id":"lt6aj9ex"}
+{"time":"2025-03-08T21:26:06.5850207+05:30","level":"INFO","msg":"stream: closed","id":"lt6aj9ex"}

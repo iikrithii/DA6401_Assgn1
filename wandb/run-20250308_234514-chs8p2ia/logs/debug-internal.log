@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:45:14.7948206+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_234514-chs8p2ia\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:45:14.9374836+05:30","level":"INFO","msg":"created new stream","id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:14.9374836+05:30","level":"INFO","msg":"stream: started","id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:14.9374836+05:30","level":"INFO","msg":"handler: started","stream_id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:14.9374836+05:30","level":"INFO","msg":"sender: started","stream_id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:14.9381923+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:15.3441439+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:45:35.9343396+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:45:35.9349757+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:45:36.9492563+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_1b9b376d702b160c1242.plotly.json","runtime_seconds":0.7174165,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.7174165,"progress":"958B/958B"},{"desc":"uploading config.yaml","runtime_seconds":0.3975289,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T23:45:37.7354389+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:45:39.1917543+05:30","level":"INFO","msg":"stream: closing","id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:39.1917543+05:30","level":"INFO","msg":"handler: closed","stream_id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:39.1917543+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:39.197758+05:30","level":"INFO","msg":"sender: closed","stream_id":"chs8p2ia"}
+{"time":"2025-03-08T23:45:39.2046974+05:30","level":"INFO","msg":"stream: closed","id":"chs8p2ia"}

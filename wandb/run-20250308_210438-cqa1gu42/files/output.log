@@ -1,0 +1,7 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/5 - Train Loss: 0.9039, Train Acc: 0.0983, Val Loss: 0.9002, Val Acc: 0.0925
+Epoch 2/5 - Train Loss: 0.9001, Train Acc: 0.1016, Val Loss: 0.9000, Val Acc: 0.1027
+Epoch 3/5 - Train Loss: 0.9001, Train Acc: 0.0980, Val Loss: 0.9001, Val Acc: 0.0925
+Epoch 4/5 - Train Loss: 0.9001, Train Acc: 0.0998, Val Loss: 0.9000, Val Acc: 0.1032
+Epoch 5/5 - Train Loss: 0.9001, Train Acc: 0.1000, Val Loss: 0.9000, Val Acc: 0.1032
+[34m[1mwandb[0m: [33mWARNING[0m Ignoring project 'DA6401_Assignment1' when running a sweep.

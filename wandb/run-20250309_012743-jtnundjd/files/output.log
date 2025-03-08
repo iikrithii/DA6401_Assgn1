@@ -1,0 +1,31 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/20 - Train Loss: 0.5247, Train Acc: 0.8152, Val Loss: 0.3946, Val Acc: 0.8527
+Epoch 2/20 - Train Loss: 0.3707, Train Acc: 0.8667, Val Loss: 0.3578, Val Acc: 0.8680
+Epoch 3/20 - Train Loss: 0.3340, Train Acc: 0.8779, Val Loss: 0.3427, Val Acc: 0.8775
+Epoch 4/20 - Train Loss: 0.3095, Train Acc: 0.8878, Val Loss: 0.3370, Val Acc: 0.8727
+Epoch 5/20 - Train Loss: 0.2910, Train Acc: 0.8941, Val Loss: 0.3219, Val Acc: 0.8812
+Epoch 6/20 - Train Loss: 0.2777, Train Acc: 0.8975, Val Loss: 0.3147, Val Acc: 0.8822
+Epoch 7/20 - Train Loss: 0.2618, Train Acc: 0.9033, Val Loss: 0.3140, Val Acc: 0.8850
+Epoch 8/20 - Train Loss: 0.2508, Train Acc: 0.9074, Val Loss: 0.3092, Val Acc: 0.8863
+Epoch 9/20 - Train Loss: 0.2413, Train Acc: 0.9103, Val Loss: 0.3109, Val Acc: 0.8887
+Epoch 10/20 - Train Loss: 0.2310, Train Acc: 0.9136, Val Loss: 0.3101, Val Acc: 0.8912
+Epoch 11/20 - Train Loss: 0.2225, Train Acc: 0.9166, Val Loss: 0.3079, Val Acc: 0.8897
+Epoch 12/20 - Train Loss: 0.2146, Train Acc: 0.9196, Val Loss: 0.3082, Val Acc: 0.8917
+Epoch 13/20 - Train Loss: 0.2059, Train Acc: 0.9237, Val Loss: 0.3176, Val Acc: 0.8882
+Epoch 14/20 - Train Loss: 0.1977, Train Acc: 0.9259, Val Loss: 0.3233, Val Acc: 0.8892
+Epoch 15/20 - Train Loss: 0.1916, Train Acc: 0.9285, Val Loss: 0.3217, Val Acc: 0.8920
+Epoch 16/20 - Train Loss: 0.1834, Train Acc: 0.9313, Val Loss: 0.3158, Val Acc: 0.8893
+Epoch 17/20 - Train Loss: 0.1769, Train Acc: 0.9342, Val Loss: 0.3259, Val Acc: 0.8923
+Epoch 18/20 - Train Loss: 0.1695, Train Acc: 0.9380, Val Loss: 0.3248, Val Acc: 0.8912
+Epoch 19/20 - Train Loss: 0.1642, Train Acc: 0.9384, Val Loss: 0.3224, Val Acc: 0.8940
+Epoch 20/20 - Train Loss: 0.1572, Train Acc: 0.9411, Val Loss: 0.3276, Val Acc: 0.8913
+Traceback (most recent call last):
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 199, in <module>
+    main()
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 171, in main
+    best_weights = np.load(filename)
+                   ^^^^^^^^^^^^^^^^^
+  File "C:\Users\skrit\miniconda3\envs\medllm\Lib\site-packages\numpy\lib\npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/hl_4_hs_128_bs_256_ep_20_ac_tanh_o_nadam_lr_0.001_wd_0.0_wi_Xavier_dataset_fashion_mnist_loss_cross_entropy.npy'

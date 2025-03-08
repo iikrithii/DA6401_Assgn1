@@ -1,0 +1,11 @@
+Epoch 1/10 - Train Loss: 0.3109, Train Acc: 0.8128, Val Loss: 0.2380, Val Acc: 0.8548
+Epoch 2/10 - Train Loss: 0.2187, Train Acc: 0.8628, Val Loss: 0.2073, Val Acc: 0.8685
+Epoch 3/10 - Train Loss: 0.1969, Train Acc: 0.8726, Val Loss: 0.2016, Val Acc: 0.8670
+Epoch 4/10 - Train Loss: 0.1851, Train Acc: 0.8796, Val Loss: 0.2060, Val Acc: 0.8710
+Epoch 5/10 - Train Loss: 0.1769, Train Acc: 0.8848, Val Loss: 0.1892, Val Acc: 0.8762
+Epoch 6/10 - Train Loss: 0.1714, Train Acc: 0.8883, Val Loss: 0.1964, Val Acc: 0.8733
+Epoch 7/10 - Train Loss: 0.1665, Train Acc: 0.8917, Val Loss: 0.1908, Val Acc: 0.8792
+Epoch 8/10 - Train Loss: 0.1626, Train Acc: 0.8940, Val Loss: 0.2069, Val Acc: 0.8608
+Epoch 9/10 - Train Loss: 0.1595, Train Acc: 0.8958, Val Loss: 0.1899, Val Acc: 0.8780
+Epoch 10/10 - Train Loss: 0.1576, Train Acc: 0.8984, Val Loss: 0.1862, Val Acc: 0.8793
+[34m[1mwandb[0m: [33mWARNING[0m Ignoring project 'DA6401_Assignment1' when running a sweep.

@@ -1,0 +1,1 @@
+{"confusion_matrix":{"sha256":"60bd2eb6ad9dc66d0d601be14046473ef279e46e047802feed240af996d62853","size":28833,"path":"media/plotly/confusion_matrix_1_60bd2eb6ad9dc66d0d60.plotly.json","_type":"plotly-file"},"_wandb":{"runtime":2},"test_loss":7.220623782842486,"test_accuracy":0.4498,"_timestamp":1.7414637070825636e+09,"_runtime":2.9102430999999997,"_step":1}

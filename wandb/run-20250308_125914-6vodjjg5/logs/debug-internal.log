@@ -1,0 +1,28 @@
+{"time":"2025-03-08T12:59:14.427949+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_125914-6vodjjg5\\logs\\debug-core.log"}
+{"time":"2025-03-08T12:59:14.6096686+05:30","level":"INFO","msg":"created new stream","id":"6vodjjg5"}
+{"time":"2025-03-08T12:59:14.6096686+05:30","level":"INFO","msg":"stream: started","id":"6vodjjg5"}
+{"time":"2025-03-08T12:59:14.6106763+05:30","level":"INFO","msg":"handler: started","stream_id":"6vodjjg5"}
+{"time":"2025-03-08T12:59:14.6106763+05:30","level":"INFO","msg":"sender: started","stream_id":"6vodjjg5"}
+{"time":"2025-03-08T12:59:14.6115341+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6vodjjg5"}
+{"time":"2025-03-08T12:59:15.2430052+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T13:12:46.0546606+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:12:48.4769573+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:12:52.5330088+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:13:01.1069836+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:13:06.0041556+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.102:62634->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-08T13:13:08.1392135+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:13:12.145939+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:13:20.3789098+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:13:20.6768736+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:13:57.0760695+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-08T13:14:34.778364+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T13:14:34.7872357+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T13:14:35.7587235+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":109.7414564,"error_status":"retrying: Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/6vodjjg5/file_stream\": dial tcp: lookup api.wandb.ai: no such host"},{"desc":"updating run config","runtime_seconds":1.0212941}],"total_operations":2}}
+{"time":"2025-03-08T13:14:58.706176+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.102:63099->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-08T13:14:58.706176+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.102:63099->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-08T13:15:31.9874547+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T13:15:35.5721012+05:30","level":"INFO","msg":"stream: closing","id":"6vodjjg5"}
+{"time":"2025-03-08T13:15:35.5721012+05:30","level":"INFO","msg":"handler: closed","stream_id":"6vodjjg5"}
+{"time":"2025-03-08T13:15:35.5721012+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6vodjjg5"}
+{"time":"2025-03-08T13:15:35.5733867+05:30","level":"INFO","msg":"sender: closed","stream_id":"6vodjjg5"}
+{"time":"2025-03-08T13:15:35.5764548+05:30","level":"INFO","msg":"stream: closed","id":"6vodjjg5"}

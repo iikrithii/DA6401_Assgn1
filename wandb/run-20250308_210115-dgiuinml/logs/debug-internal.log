@@ -1,0 +1,16 @@
+{"time":"2025-03-08T21:01:15.5613662+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_210115-dgiuinml\\logs\\debug-core.log"}
+{"time":"2025-03-08T21:01:16.7075239+05:30","level":"INFO","msg":"created new stream","id":"dgiuinml"}
+{"time":"2025-03-08T21:01:16.7075239+05:30","level":"INFO","msg":"stream: started","id":"dgiuinml"}
+{"time":"2025-03-08T21:01:16.7090862+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dgiuinml"}
+{"time":"2025-03-08T21:01:16.7096334+05:30","level":"INFO","msg":"handler: started","stream_id":"dgiuinml"}
+{"time":"2025-03-08T21:01:16.7096334+05:30","level":"INFO","msg":"sender: started","stream_id":"dgiuinml"}
+{"time":"2025-03-08T21:01:17.4976546+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T21:04:38.8705757+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T21:04:38.8715753+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T21:04:39.8893102+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_32_c2d93301045a45ce523b.plotly.json","runtime_seconds":0.2840055,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.2840055,"progress":"2.7KB/2.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2840055,"progress":"648B/648B"}],"total_operations":3}}
+{"time":"2025-03-08T21:04:41.1849881+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T21:04:42.7349159+05:30","level":"INFO","msg":"stream: closing","id":"dgiuinml"}
+{"time":"2025-03-08T21:04:42.7349159+05:30","level":"INFO","msg":"handler: closed","stream_id":"dgiuinml"}
+{"time":"2025-03-08T21:04:42.7349159+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dgiuinml"}
+{"time":"2025-03-08T21:04:42.73631+05:30","level":"INFO","msg":"sender: closed","stream_id":"dgiuinml"}
+{"time":"2025-03-08T21:04:42.7500628+05:30","level":"INFO","msg":"stream: closed","id":"dgiuinml"}

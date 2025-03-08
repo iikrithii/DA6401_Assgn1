@@ -8,11 +8,12 @@ import matplotlib.pyplot as plt
 import os
 
 from src.model import NeuralNetwork
-from src.utils import one_hot_encode
+from src.utils import one_hot_encode, plot_confusion_matrix
 from src.optimizers import get_optimizer
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Train a Feedforward Neural Network on Fashion-MNIST or MNIST")
+    parser = argparse.ArgumentParser(description="Train a Feedforward Neural Network on Fashion-MNIST or MNIST",
+                                     allow_abbrev=False)
     parser.add_argument('-wp', '--wandb_project', type=str, default="DA6401_Assignment1", help="Project name used to track experiments in Weights & Biases dashboard")
     parser.add_argument('-we', '--wandb_entity', type=str, default="ns25z040-indian-institute-of-technology-madras", help="Wandb Entity used to track experiments in Weights & Biases dashboard")
     parser.add_argument('-d', '--dataset', type=str, choices=["mnist", "fashion_mnist"], default="fashion_mnist", help="Dataset to use")
@@ -31,17 +32,17 @@ def parse_arguments():
     parser.add_argument('-nhl', '--num_layers', type=int, default=3, help="Number of hidden layers used in feedforward neural network")
     parser.add_argument('-sz', '--hidden_size', type=int, default=64, help="Number of neurons in each hidden layer")
     parser.add_argument('-a', '--activation', type=str, choices=["identity", "sigmoid", "tanh", "ReLU"], default="ReLU", help="Activation function to use")
+    parser.add_argument('-ev', '--evaluate', type=bool, default=1, help="Test on data and report test accuracy")
     args, unknown = parser.parse_known_args()
     return args
 
 def main():
     args = parse_arguments()
-
     # Initialize wandb
     wandb.init(project=args.wandb_project, entity=args.wandb_entity, config=vars(args))
     config = wandb.config
 
-    run_name = f"hl_{config.num_layers}_hs_{config.hidden_size}_bs_{config.batch_size}_ep_{config.epochs}_ac_{config.activation}_o_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_wi_{config.weight_init}"
+    run_name = f"hl_{config.num_layers}_hs_{config.hidden_size}_bs_{config.batch_size}_ep_{config.epochs}_ac_{config.activation}_o_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_wi_{config.weight_init}_dataset_{config.dataset}"
     wandb.run.name = run_name
     wandb.run.save()
 
@@ -156,6 +157,8 @@ def main():
             best_epoch= epoch
             best_train_loss= epoch_loss / num_batches
             best_val_loss= val_loss
+            filename = f"models/hl_{config.num_layers}_hs_{config.hidden_size}_bs_{config.batch_size}_ep_{config.epochs}_ac_{config.activation}_o_{config.optimizer}_lr_{config.learning_rate}_wd_{config.weight_decay}_wi_{config.weight_init}_dataset_{config.dataset}_loss_{config.loss}.npy"
+            np.save(filename, nn.parameters)
 
     # Log metrics to wandb
     wandb.log({
@@ -166,5 +169,35 @@ def main():
         "best_val_loss": best_val_loss,
     })
     
+    if config.evaluate:
+        best_weights = np.load(filename, allow_pickle=True).item()
+        nn.parameters = best_weights
+
+        # Compute test accuracy with the best model
+        test_outputs = nn.forward(X_test)
+        test_loss = nn.compute_loss(test_outputs, y_test_encoded)
+        test_predictions = np.argmax(test_outputs, axis=1)
+        test_accuracy = np.mean(test_predictions == y_test)
+
+        wandb.log({
+        "test_loss": test_loss,
+        "test_accuracy": test_accuracy,
+        })
+
+        cm = confusion_matrix(y_test, test_predictions)
+
+        if config.dataset == "fashion_mnist":
+            labels = [
+            "T-shirt/top", "Trouser", "Pullover", "Dress", "Coat",
+            "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"
+            ]
+        else:
+            num_classes = cm.shape[0]
+            labels = [str(i) for i in range(num_classes)]
+
+        plot_confusion_matrix(cm, labels, run_name="Test Confusion Matrix", project= "DA6401_Assignment1")
+
 if __name__ == "__main__":
     main()
+
+# 

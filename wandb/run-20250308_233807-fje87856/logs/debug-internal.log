@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:38:07.8481723+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_233807-fje87856\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:38:07.9808135+05:30","level":"INFO","msg":"created new stream","id":"fje87856"}
+{"time":"2025-03-08T23:38:07.9844557+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fje87856"}
+{"time":"2025-03-08T23:38:07.9844557+05:30","level":"INFO","msg":"stream: started","id":"fje87856"}
+{"time":"2025-03-08T23:38:07.9849635+05:30","level":"INFO","msg":"handler: started","stream_id":"fje87856"}
+{"time":"2025-03-08T23:38:07.9857974+05:30","level":"INFO","msg":"sender: started","stream_id":"fje87856"}
+{"time":"2025-03-08T23:38:08.5212603+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:38:34.1056591+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:38:34.1061647+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:38:35.1187364+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6730254,"progress":"656B/656B"},{"desc":"uploading media\\plotly\\confusion_matrix_12_25173819bcac1918b019.plotly.json","runtime_seconds":0.6730254,"progress":"28.1KB/28.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3274284,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T23:38:35.9500775+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:38:37.3230127+05:30","level":"INFO","msg":"stream: closing","id":"fje87856"}
+{"time":"2025-03-08T23:38:37.3230127+05:30","level":"INFO","msg":"handler: closed","stream_id":"fje87856"}
+{"time":"2025-03-08T23:38:37.3230127+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fje87856"}
+{"time":"2025-03-08T23:38:37.3245278+05:30","level":"INFO","msg":"sender: closed","stream_id":"fje87856"}
+{"time":"2025-03-08T23:38:37.3324651+05:30","level":"INFO","msg":"stream: closed","id":"fje87856"}

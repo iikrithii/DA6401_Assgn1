@@ -1,0 +1,19 @@
+{"time":"2025-03-08T13:15:40.4804591+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_131540-8xis5b2u\\logs\\debug-core.log"}
+{"time":"2025-03-08T13:15:40.6430567+05:30","level":"INFO","msg":"created new stream","id":"8xis5b2u"}
+{"time":"2025-03-08T13:15:40.6430567+05:30","level":"INFO","msg":"stream: started","id":"8xis5b2u"}
+{"time":"2025-03-08T13:15:40.6477167+05:30","level":"INFO","msg":"handler: started","stream_id":"8xis5b2u"}
+{"time":"2025-03-08T13:15:40.6477167+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"8xis5b2u"}
+{"time":"2025-03-08T13:15:40.6477167+05:30","level":"INFO","msg":"sender: started","stream_id":"8xis5b2u"}
+{"time":"2025-03-08T13:15:41.2117266+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T13:17:37.3958855+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/8xis5b2u/file_stream\": unexpected EOF"}
+{"time":"2025-03-08T13:18:01.400232+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.102:63322->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-08T13:18:06.3088247+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/8xis5b2u/file_stream\": dial tcp 35.186.228.49:443: connectex: An established connection was aborted by the software in your host machine."}
+{"time":"2025-03-08T13:30:12.7304624+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T13:30:12.7323426+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T13:30:13.7386443+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2263011,"progress":"2.5KB/2.5KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2263011,"progress":"405B/405B"}],"total_operations":2}}
+{"time":"2025-03-08T13:30:14.1855281+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T13:30:15.6075565+05:30","level":"INFO","msg":"stream: closing","id":"8xis5b2u"}
+{"time":"2025-03-08T13:30:15.6075565+05:30","level":"INFO","msg":"handler: closed","stream_id":"8xis5b2u"}
+{"time":"2025-03-08T13:30:15.6075565+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"8xis5b2u"}
+{"time":"2025-03-08T13:30:15.6087062+05:30","level":"INFO","msg":"sender: closed","stream_id":"8xis5b2u"}
+{"time":"2025-03-08T13:30:15.6148225+05:30","level":"INFO","msg":"stream: closed","id":"8xis5b2u"}

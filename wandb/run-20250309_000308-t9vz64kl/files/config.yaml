@@ -1,0 +1,75 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.12.5
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 49
+                - 53
+                - 55
+                - 105
+            "2":
+                - 2
+                - 3
+                - 5
+                - 49
+                - 53
+                - 55
+                - 105
+            "3":
+                - 2
+                - 14
+                - 16
+                - 17
+                - 23
+                - 24
+                - 55
+            "4": 3.12.5
+            "5": 0.19.7
+            "8":
+                - 3
+                - 5
+            "10":
+                - 3
+            "12": 0.19.7
+            "13": windows-amd64
+activation:
+    value: sigmoid
+batch_size:
+    value: 16
+beta:
+    value: 0.5
+beta1:
+    value: 0.5
+beta2:
+    value: 0.5
+dataset:
+    value: fashion_mnist
+epochs:
+    value: 10
+epsilon:
+    value: 1e-06
+hidden_size:
+    value: 64
+learning_rate:
+    value: 0.001
+loss:
+    value: mean_squared_error
+momentum:
+    value: 0.5
+num_layers:
+    value: 4
+optimizer:
+    value: nadam
+wandb_entity:
+    value: ns25z040-indian-institute-of-technology-madras
+wandb_project:
+    value: DA6401_Assignment1
+weight_decay:
+    value: 0
+weight_init:
+    value: Xavier

@@ -1,0 +1,16 @@
+{"time":"2025-03-08T22:36:48.7114468+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_223648-emewftku\\logs\\debug-core.log"}
+{"time":"2025-03-08T22:36:49.6238844+05:30","level":"INFO","msg":"created new stream","id":"emewftku"}
+{"time":"2025-03-08T22:36:49.6246738+05:30","level":"INFO","msg":"stream: started","id":"emewftku"}
+{"time":"2025-03-08T22:36:49.6314812+05:30","level":"INFO","msg":"handler: started","stream_id":"emewftku"}
+{"time":"2025-03-08T22:36:49.6314812+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"emewftku"}
+{"time":"2025-03-08T22:36:49.6361683+05:30","level":"INFO","msg":"sender: started","stream_id":"emewftku"}
+{"time":"2025-03-08T22:36:50.295788+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T22:40:32.6909157+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T22:40:32.6914514+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T22:40:33.7078214+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4598308,"progress":"958B/958B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4598308,"progress":"657B/657B"},{"desc":"uploading media\\plotly\\confusion_matrix_12_b7f4773a02ae7cb4b591.plotly.json","runtime_seconds":0.4598308,"progress":"28.1KB/28.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1688391,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-03-08T22:40:34.5909678+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T22:40:35.9962773+05:30","level":"INFO","msg":"stream: closing","id":"emewftku"}
+{"time":"2025-03-08T22:40:35.9962773+05:30","level":"INFO","msg":"handler: closed","stream_id":"emewftku"}
+{"time":"2025-03-08T22:40:35.9962773+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"emewftku"}
+{"time":"2025-03-08T22:40:35.9997965+05:30","level":"INFO","msg":"sender: closed","stream_id":"emewftku"}
+{"time":"2025-03-08T22:40:36.0137508+05:30","level":"INFO","msg":"stream: closed","id":"emewftku"}

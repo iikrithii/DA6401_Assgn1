@@ -1,0 +1,6 @@
+Epoch 1/5 - Train Loss: 0.3840, Train Acc: 0.7941, Val Loss: 0.2881, Val Acc: 0.8347
+Epoch 2/5 - Train Loss: 0.2459, Train Acc: 0.8539, Val Loss: 0.2395, Val Acc: 0.8573
+Epoch 3/5 - Train Loss: 0.2172, Train Acc: 0.8681, Val Loss: 0.2381, Val Acc: 0.8685
+Epoch 4/5 - Train Loss: 0.2002, Train Acc: 0.8789, Val Loss: 0.2034, Val Acc: 0.8725
+Epoch 5/5 - Train Loss: 0.1896, Train Acc: 0.8829, Val Loss: 0.2051, Val Acc: 0.8750
+[34m[1mwandb[0m: [33mWARNING[0m Ignoring project 'DA6401_Assignment1' when running a sweep.

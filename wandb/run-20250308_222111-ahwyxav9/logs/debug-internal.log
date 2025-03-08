@@ -1,0 +1,16 @@
+{"time":"2025-03-08T22:21:11.9108859+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_222111-ahwyxav9\\logs\\debug-core.log"}
+{"time":"2025-03-08T22:21:12.1522868+05:30","level":"INFO","msg":"created new stream","id":"ahwyxav9"}
+{"time":"2025-03-08T22:21:12.1522868+05:30","level":"INFO","msg":"stream: started","id":"ahwyxav9"}
+{"time":"2025-03-08T22:21:12.1727811+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ahwyxav9"}
+{"time":"2025-03-08T22:21:12.173781+05:30","level":"INFO","msg":"handler: started","stream_id":"ahwyxav9"}
+{"time":"2025-03-08T22:21:12.173781+05:30","level":"INFO","msg":"sender: started","stream_id":"ahwyxav9"}
+{"time":"2025-03-08T22:21:12.6714787+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T22:26:09.5629984+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T22:26:09.5635062+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T22:26:10.5701835+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4470851,"progress":"657B/657B"},{"desc":"uploading media\\plotly\\confusion_matrix_12_58e53b64b0eefcb6b99a.plotly.json","runtime_seconds":0.4465917,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.4465917,"progress":"958B/958B"},{"desc":"uploading config.yaml","runtime_seconds":0.1394308,"progress":"1.3KB/1.3KB"}],"total_operations":4}}
+{"time":"2025-03-08T22:26:10.8067883+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T22:26:12.2087682+05:30","level":"INFO","msg":"stream: closing","id":"ahwyxav9"}
+{"time":"2025-03-08T22:26:12.2087682+05:30","level":"INFO","msg":"handler: closed","stream_id":"ahwyxav9"}
+{"time":"2025-03-08T22:26:12.2087682+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ahwyxav9"}
+{"time":"2025-03-08T22:26:12.209141+05:30","level":"INFO","msg":"sender: closed","stream_id":"ahwyxav9"}
+{"time":"2025-03-08T22:26:12.2211766+05:30","level":"INFO","msg":"stream: closed","id":"ahwyxav9"}

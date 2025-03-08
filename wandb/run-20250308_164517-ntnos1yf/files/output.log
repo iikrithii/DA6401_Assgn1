@@ -1,0 +1,11 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/30 - Train Loss: 0.5268, Train Acc: 0.8104, Val Loss: 0.4035, Val Acc: 0.8537
+Traceback (most recent call last):
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 196, in <module>
+    main()
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 161, in main
+    np.save("models/best_model.npy", nn.parameters)
+  File "C:\Users\skrit\miniconda3\envs\medllm\Lib\site-packages\numpy\lib\npyio.py", line 542, in save
+    file_ctx = open(file, "wb")
+               ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/best_model.npy'

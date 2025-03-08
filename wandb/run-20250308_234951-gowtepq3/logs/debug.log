@@ -1,0 +1,37 @@
+2025-03-08 23:49:51,111 INFO    Thread-519 (_run_job):40720 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-08 23:49:51,114 INFO    Thread-519 (_run_job):40720 [wandb_setup.py:_flush():67] Configure stats pid to 40720
+2025-03-08 23:49:51,116 INFO    Thread-519 (_run_job):40720 [wandb_setup.py:_flush():67] Loading settings from C:\Users\skrit\.config\wandb\settings
+2025-03-08 23:49:51,119 INFO    Thread-519 (_run_job):40720 [wandb_setup.py:_flush():67] Loading settings from C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\settings
+2025-03-08 23:49:51,121 INFO    Thread-519 (_run_job):40720 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-08 23:49:51,123 INFO    Thread-519 (_run_job):40720 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250308_234951-gowtepq3\logs\debug.log
+2025-03-08 23:49:51,136 INFO    Thread-519 (_run_job):40720 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250308_234951-gowtepq3\logs\debug-internal.log
+2025-03-08 23:49:51,139 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:49:51,141 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_size': 64, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'num_layers': 3, 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'Xavier'}
+config: {'wandb_project': 'DA6401_Assignment1', 'wandb_entity': 'ns25z040-indian-institute-of-technology-madras', 'dataset': 'fashion_mnist', 'epochs': 10, 'batch_size': 32, 'loss': 'cross_entropy', 'optimizer': 'adam', 'learning_rate': 0.001, 'momentum': 0.5, 'beta': 0.5, 'beta1': 0.5, 'beta2': 0.5, 'epsilon': 1e-06, 'weight_decay': 0.0, 'weight_init': 'Xavier', 'num_layers': 3, 'hidden_size': 64, 'activation': 'ReLU', '_wandb': {}}
+2025-03-08 23:49:51,145 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():784] starting backend
+2025-03-08 23:49:51,147 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():788] sending inform_init request
+2025-03-08 23:49:51,150 INFO    Thread-519 (_run_job):40720 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-08 23:49:51,155 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():803] backend started and connected
+2025-03-08 23:49:51,158 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_size': 64, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'num_layers': 3, 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'Xavier'}
+2025-03-08 23:49:51,161 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():896] updated telemetry
+2025-03-08 23:49:51,246 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-08 23:49:51,686 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():995] starting run threads in backend
+2025-03-08 23:49:51,872 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-08 23:49:51,875 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-08 23:49:51,877 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-08 23:49:51,879 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-08 23:49:51,883 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-08 23:50:51,517 INFO    Thread-519 (_run_job):40720 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250308_235051-gowtepq3\logs\debug.log
+2025-03-08 23:50:51,520 INFO    Thread-519 (_run_job):40720 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\wandb\run-20250308_235051-gowtepq3\logs\debug-internal.log
+2025-03-08 23:50:51,524 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():761] calling init triggers
+2025-03-08 23:50:51,528 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'epochs': 10, 'hidden_size': 64, 'learning_rate': 0.001, 'loss': 'mean_squared_error', 'num_layers': 3, 'optimizer': 'nadam', 'weight_decay': 0, 'weight_init': 'Xavier'}
+config: {'_wandb': {}}
+2025-03-08 23:50:51,533 INFO    Thread-519 (_run_job):40720 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-08 23:50:51,562 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_finish():2112] finishing run ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/gowtepq3
+2025-03-08 23:50:51,566 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_atexit_cleanup():2342] got exitcode: 0
+2025-03-08 23:50:51,567 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_restore():2324] restore
+2025-03-08 23:50:51,572 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_restore():2330] restore done
+2025-03-08 23:50:54,215 INFO    MsgRouterThr:40720 [mailbox.py:close():115] Closing mailbox, abandoning 1 handles.
+2025-03-08 23:50:54,224 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-08 23:50:54,232 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-08 23:50:54,237 INFO    Thread-519 (_run_job):40720 [wandb_run.py:_footer_sync_info():3919] logging synced files

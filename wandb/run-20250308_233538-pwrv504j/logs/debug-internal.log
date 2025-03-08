@@ -1,0 +1,16 @@
+{"time":"2025-03-08T23:35:38.3770642+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_233538-pwrv504j\\logs\\debug-core.log"}
+{"time":"2025-03-08T23:35:38.5140894+05:30","level":"INFO","msg":"created new stream","id":"pwrv504j"}
+{"time":"2025-03-08T23:35:38.5146131+05:30","level":"INFO","msg":"stream: started","id":"pwrv504j"}
+{"time":"2025-03-08T23:35:38.5146131+05:30","level":"INFO","msg":"handler: started","stream_id":"pwrv504j"}
+{"time":"2025-03-08T23:35:38.5146131+05:30","level":"INFO","msg":"sender: started","stream_id":"pwrv504j"}
+{"time":"2025-03-08T23:35:38.5146131+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"pwrv504j"}
+{"time":"2025-03-08T23:35:38.9285485+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T23:35:51.444524+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T23:35:51.4465632+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T23:35:52.4491498+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_f7f280c0907c208c2e4d.plotly.json","runtime_seconds":0.702913,"progress":"28.1KB/28.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3928515,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-08T23:35:52.5484712+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T23:35:53.9441093+05:30","level":"INFO","msg":"stream: closing","id":"pwrv504j"}
+{"time":"2025-03-08T23:35:53.9441093+05:30","level":"INFO","msg":"handler: closed","stream_id":"pwrv504j"}
+{"time":"2025-03-08T23:35:53.9441093+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"pwrv504j"}
+{"time":"2025-03-08T23:35:53.9461071+05:30","level":"INFO","msg":"sender: closed","stream_id":"pwrv504j"}
+{"time":"2025-03-08T23:35:53.9490037+05:30","level":"INFO","msg":"stream: closed","id":"pwrv504j"}

@@ -1,0 +1,16 @@
+{"time":"2025-03-08T17:30:38.7778532+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_173038-rabyhm3y\\logs\\debug-core.log"}
+{"time":"2025-03-08T17:30:38.9023599+05:30","level":"INFO","msg":"created new stream","id":"rabyhm3y"}
+{"time":"2025-03-08T17:30:38.9029116+05:30","level":"INFO","msg":"stream: started","id":"rabyhm3y"}
+{"time":"2025-03-08T17:30:38.9029116+05:30","level":"INFO","msg":"handler: started","stream_id":"rabyhm3y"}
+{"time":"2025-03-08T17:30:38.9029116+05:30","level":"INFO","msg":"sender: started","stream_id":"rabyhm3y"}
+{"time":"2025-03-08T17:30:38.9029116+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rabyhm3y"}
+{"time":"2025-03-08T17:30:39.5593667+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T17:34:01.8134011+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T17:34:01.8141537+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T17:34:02.8312298+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_32_c46549af62aacaa34ced.plotly.json","runtime_seconds":0.3668649,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.3668649,"progress":"2.7KB/2.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3668649,"progress":"672B/672B"}],"total_operations":3}}
+{"time":"2025-03-08T17:34:03.2963093+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T17:34:04.7759878+05:30","level":"INFO","msg":"stream: closing","id":"rabyhm3y"}
+{"time":"2025-03-08T17:34:04.7759878+05:30","level":"INFO","msg":"handler: closed","stream_id":"rabyhm3y"}
+{"time":"2025-03-08T17:34:04.7759878+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rabyhm3y"}
+{"time":"2025-03-08T17:34:04.7764018+05:30","level":"INFO","msg":"sender: closed","stream_id":"rabyhm3y"}
+{"time":"2025-03-08T17:34:04.783178+05:30","level":"INFO","msg":"stream: closed","id":"rabyhm3y"}

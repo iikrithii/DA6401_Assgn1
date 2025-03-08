@@ -1,0 +1,15 @@
+{"time":"2025-03-08T16:50:51.0014396+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_165050-dreb1nsh\\logs\\debug-core.log"}
+{"time":"2025-03-08T16:50:52.1408805+05:30","level":"INFO","msg":"created new stream","id":"dreb1nsh"}
+{"time":"2025-03-08T16:50:52.1408805+05:30","level":"INFO","msg":"handler: started","stream_id":"dreb1nsh"}
+{"time":"2025-03-08T16:50:52.1408805+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dreb1nsh"}
+{"time":"2025-03-08T16:50:52.1414264+05:30","level":"INFO","msg":"stream: started","id":"dreb1nsh"}
+{"time":"2025-03-08T16:50:52.1414264+05:30","level":"INFO","msg":"sender: started","stream_id":"dreb1nsh"}
+{"time":"2025-03-08T16:50:52.7065361+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T16:54:50.2784829+05:30","level":"INFO","msg":"stream: closing","id":"dreb1nsh"}
+{"time":"2025-03-08T16:54:50.2784829+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T16:54:50.2796207+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T16:54:51.8309584+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T16:54:52.1480075+05:30","level":"INFO","msg":"handler: closed","stream_id":"dreb1nsh"}
+{"time":"2025-03-08T16:54:52.1480075+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dreb1nsh"}
+{"time":"2025-03-08T16:54:52.1480075+05:30","level":"INFO","msg":"sender: closed","stream_id":"dreb1nsh"}
+{"time":"2025-03-08T16:54:52.1999303+05:30","level":"INFO","msg":"stream: closed","id":"dreb1nsh"}

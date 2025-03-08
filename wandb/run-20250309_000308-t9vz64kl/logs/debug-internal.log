@@ -1,0 +1,16 @@
+{"time":"2025-03-09T00:03:08.8141987+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250309_000308-t9vz64kl\\logs\\debug-core.log"}
+{"time":"2025-03-09T00:03:09.5767807+05:30","level":"INFO","msg":"created new stream","id":"t9vz64kl"}
+{"time":"2025-03-09T00:03:09.5772905+05:30","level":"INFO","msg":"stream: started","id":"t9vz64kl"}
+{"time":"2025-03-09T00:03:09.5772905+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"t9vz64kl"}
+{"time":"2025-03-09T00:03:09.5788534+05:30","level":"INFO","msg":"handler: started","stream_id":"t9vz64kl"}
+{"time":"2025-03-09T00:03:09.5798536+05:30","level":"INFO","msg":"sender: started","stream_id":"t9vz64kl"}
+{"time":"2025-03-09T00:03:10.0073474+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T00:05:54.8439493+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T00:05:54.8446168+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T00:05:55.8627899+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_12_0df9c5ce2f4532b36ebd.plotly.json","runtime_seconds":0.4710434,"progress":"28.1KB/28.1KB"},{"desc":"uploading output.log","runtime_seconds":0.4710434,"progress":"958B/958B"},{"desc":"uploading config.yaml","runtime_seconds":0.1616099,"progress":"1.3KB/1.3KB"},{"desc":"uploading history steps 9-12, summary, console lines 9-10","runtime_seconds":0.0929815}],"total_operations":4}}
+{"time":"2025-03-09T00:05:56.8999349+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T00:05:58.2659438+05:30","level":"INFO","msg":"stream: closing","id":"t9vz64kl"}
+{"time":"2025-03-09T00:05:58.2659438+05:30","level":"INFO","msg":"handler: closed","stream_id":"t9vz64kl"}
+{"time":"2025-03-09T00:05:58.2659438+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"t9vz64kl"}
+{"time":"2025-03-09T00:05:58.2659438+05:30","level":"INFO","msg":"sender: closed","stream_id":"t9vz64kl"}
+{"time":"2025-03-09T00:05:58.2722105+05:30","level":"INFO","msg":"stream: closed","id":"t9vz64kl"}

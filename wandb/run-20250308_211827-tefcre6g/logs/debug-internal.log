@@ -1,0 +1,16 @@
+{"time":"2025-03-08T21:18:27.7233547+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_211827-tefcre6g\\logs\\debug-core.log"}
+{"time":"2025-03-08T21:18:28.4601323+05:30","level":"INFO","msg":"created new stream","id":"tefcre6g"}
+{"time":"2025-03-08T21:18:28.4601323+05:30","level":"INFO","msg":"stream: started","id":"tefcre6g"}
+{"time":"2025-03-08T21:18:28.4601323+05:30","level":"INFO","msg":"handler: started","stream_id":"tefcre6g"}
+{"time":"2025-03-08T21:18:28.4601323+05:30","level":"INFO","msg":"sender: started","stream_id":"tefcre6g"}
+{"time":"2025-03-08T21:18:28.4601323+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tefcre6g"}
+{"time":"2025-03-08T21:18:29.021716+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T21:18:45.1077252+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T21:18:45.1082438+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T21:18:46.1179591+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media\\plotly\\confusion_matrix_7_c205f43e3bac7efe0558.plotly.json","runtime_seconds":0.6641618,"progress":"28.2KB/28.2KB"},{"desc":"uploading config.yaml","runtime_seconds":0.2501756,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-08T21:18:46.249752+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T21:18:47.8041799+05:30","level":"INFO","msg":"stream: closing","id":"tefcre6g"}
+{"time":"2025-03-08T21:18:47.8041799+05:30","level":"INFO","msg":"handler: closed","stream_id":"tefcre6g"}
+{"time":"2025-03-08T21:18:47.8041799+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tefcre6g"}
+{"time":"2025-03-08T21:18:47.8051145+05:30","level":"INFO","msg":"sender: closed","stream_id":"tefcre6g"}
+{"time":"2025-03-08T21:18:47.8094926+05:30","level":"INFO","msg":"stream: closed","id":"tefcre6g"}

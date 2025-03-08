@@ -1,0 +1,34 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/20 - Train Loss: 0.5204, Train Acc: 0.8150, Val Loss: 0.4080, Val Acc: 0.8513
+Epoch 2/20 - Train Loss: 0.3681, Train Acc: 0.8662, Val Loss: 0.3625, Val Acc: 0.8690
+Epoch 3/20 - Train Loss: 0.3344, Train Acc: 0.8779, Val Loss: 0.3456, Val Acc: 0.8743
+Epoch 4/20 - Train Loss: 0.3110, Train Acc: 0.8867, Val Loss: 0.3339, Val Acc: 0.8762
+Epoch 5/20 - Train Loss: 0.2928, Train Acc: 0.8917, Val Loss: 0.3240, Val Acc: 0.8823
+Epoch 6/20 - Train Loss: 0.2767, Train Acc: 0.8984, Val Loss: 0.3250, Val Acc: 0.8802
+Epoch 7/20 - Train Loss: 0.2628, Train Acc: 0.9007, Val Loss: 0.3142, Val Acc: 0.8845
+Epoch 8/20 - Train Loss: 0.2509, Train Acc: 0.9055, Val Loss: 0.3178, Val Acc: 0.8838
+Epoch 9/20 - Train Loss: 0.2412, Train Acc: 0.9096, Val Loss: 0.3147, Val Acc: 0.8838
+Epoch 10/20 - Train Loss: 0.2302, Train Acc: 0.9137, Val Loss: 0.3202, Val Acc: 0.8852
+Epoch 11/20 - Train Loss: 0.2224, Train Acc: 0.9162, Val Loss: 0.3183, Val Acc: 0.8860
+Epoch 12/20 - Train Loss: 0.2122, Train Acc: 0.9203, Val Loss: 0.3305, Val Acc: 0.8837
+Epoch 13/20 - Train Loss: 0.2052, Train Acc: 0.9227, Val Loss: 0.3254, Val Acc: 0.8873
+Epoch 14/20 - Train Loss: 0.1981, Train Acc: 0.9263, Val Loss: 0.3248, Val Acc: 0.8890
+Epoch 15/20 - Train Loss: 0.1880, Train Acc: 0.9292, Val Loss: 0.3233, Val Acc: 0.8908
+Epoch 16/20 - Train Loss: 0.1830, Train Acc: 0.9314, Val Loss: 0.3308, Val Acc: 0.8883
+Epoch 17/20 - Train Loss: 0.1759, Train Acc: 0.9339, Val Loss: 0.3260, Val Acc: 0.8968
+Epoch 18/20 - Train Loss: 0.1688, Train Acc: 0.9363, Val Loss: 0.3445, Val Acc: 0.8892
+Epoch 19/20 - Train Loss: 0.1629, Train Acc: 0.9399, Val Loss: 0.3265, Val Acc: 0.8963
+Epoch 20/20 - Train Loss: 0.1559, Train Acc: 0.9418, Val Loss: 0.3562, Val Acc: 0.8852
+Traceback (most recent call last):
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 199, in <module>
+    main()
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\train.py", line 175, in main
+    test_outputs = nn.forward(X_test)
+                   ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\model.py", line 101, in forward
+    _, _, y_hat = self.forward_pass(X)
+                  ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\model.py", line 81, in forward_pass
+    a_L = np.dot(h_list[-1], self.parameters[f"W{self.num_layers + 1}"]) + \
+                             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'W5'
