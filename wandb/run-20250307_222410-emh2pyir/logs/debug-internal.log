@@ -1,0 +1,16 @@
+{"time":"2025-03-07T22:24:10.2892264+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250307_222410-emh2pyir\\logs\\debug-core.log"}
+{"time":"2025-03-07T22:24:10.4159828+05:30","level":"INFO","msg":"created new stream","id":"emh2pyir"}
+{"time":"2025-03-07T22:24:10.4159828+05:30","level":"INFO","msg":"stream: started","id":"emh2pyir"}
+{"time":"2025-03-07T22:24:10.4159828+05:30","level":"INFO","msg":"sender: started","stream_id":"emh2pyir"}
+{"time":"2025-03-07T22:24:10.4159828+05:30","level":"INFO","msg":"handler: started","stream_id":"emh2pyir"}
+{"time":"2025-03-07T22:24:10.4159828+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"emh2pyir"}
+{"time":"2025-03-07T22:24:10.7791584+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T22:24:23.9039838+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T22:24:23.9044915+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T22:24:24.9088064+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.689298,"progress":"861B/861B"},{"desc":"uploading config.yaml","runtime_seconds":0.3657572,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-07T22:24:25.5135587+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T22:24:27.0234088+05:30","level":"INFO","msg":"stream: closing","id":"emh2pyir"}
+{"time":"2025-03-07T22:24:27.0234088+05:30","level":"INFO","msg":"handler: closed","stream_id":"emh2pyir"}
+{"time":"2025-03-07T22:24:27.0234088+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"emh2pyir"}
+{"time":"2025-03-07T22:24:27.0242343+05:30","level":"INFO","msg":"sender: closed","stream_id":"emh2pyir"}
+{"time":"2025-03-07T22:24:27.0291552+05:30","level":"INFO","msg":"stream: closed","id":"emh2pyir"}

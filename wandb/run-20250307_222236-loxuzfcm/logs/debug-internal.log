@@ -1,0 +1,16 @@
+{"time":"2025-03-07T22:22:36.822616+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250307_222236-loxuzfcm\\logs\\debug-core.log"}
+{"time":"2025-03-07T22:22:36.9446413+05:30","level":"INFO","msg":"created new stream","id":"loxuzfcm"}
+{"time":"2025-03-07T22:22:36.9446413+05:30","level":"INFO","msg":"stream: started","id":"loxuzfcm"}
+{"time":"2025-03-07T22:22:36.9446413+05:30","level":"INFO","msg":"handler: started","stream_id":"loxuzfcm"}
+{"time":"2025-03-07T22:22:36.9446413+05:30","level":"INFO","msg":"sender: started","stream_id":"loxuzfcm"}
+{"time":"2025-03-07T22:22:36.9446413+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"loxuzfcm"}
+{"time":"2025-03-07T22:22:37.3288948+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T22:23:06.1513529+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T22:23:06.1518569+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T22:23:07.135707+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T22:23:07.1622263+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 5-10, summary, console lines 5-9","runtime_seconds":0.0265193}],"total_operations":1}}
+{"time":"2025-03-07T22:23:08.4633983+05:30","level":"INFO","msg":"stream: closing","id":"loxuzfcm"}
+{"time":"2025-03-07T22:23:08.4633983+05:30","level":"INFO","msg":"handler: closed","stream_id":"loxuzfcm"}
+{"time":"2025-03-07T22:23:08.4633983+05:30","level":"INFO","msg":"sender: closed","stream_id":"loxuzfcm"}
+{"time":"2025-03-07T22:23:08.4633983+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"loxuzfcm"}
+{"time":"2025-03-07T22:23:08.4673431+05:30","level":"INFO","msg":"stream: closed","id":"loxuzfcm"}

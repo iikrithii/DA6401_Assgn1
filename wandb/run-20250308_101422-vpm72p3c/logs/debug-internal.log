@@ -1,0 +1,16 @@
+{"time":"2025-03-08T10:14:22.6798719+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_101422-vpm72p3c\\logs\\debug-core.log"}
+{"time":"2025-03-08T10:14:22.8049794+05:30","level":"INFO","msg":"created new stream","id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:22.8049794+05:30","level":"INFO","msg":"stream: started","id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:22.8055057+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:22.8055057+05:30","level":"INFO","msg":"sender: started","stream_id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:22.8055057+05:30","level":"INFO","msg":"handler: started","stream_id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:23.1342454+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T10:14:53.248559+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T10:14:53.2490648+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T10:14:54.1939344+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T10:14:54.2670254+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading data","runtime_seconds":0.0375001}],"total_operations":1}}
+{"time":"2025-03-08T10:14:55.5611519+05:30","level":"INFO","msg":"stream: closing","id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:55.5611519+05:30","level":"INFO","msg":"handler: closed","stream_id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:55.5611519+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:55.5624186+05:30","level":"INFO","msg":"sender: closed","stream_id":"vpm72p3c"}
+{"time":"2025-03-08T10:14:55.5655923+05:30","level":"INFO","msg":"stream: closed","id":"vpm72p3c"}

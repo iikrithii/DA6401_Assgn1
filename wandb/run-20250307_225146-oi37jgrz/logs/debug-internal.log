@@ -1,0 +1,16 @@
+{"time":"2025-03-07T22:51:46.5537335+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250307_225146-oi37jgrz\\logs\\debug-core.log"}
+{"time":"2025-03-07T22:51:46.6793559+05:30","level":"INFO","msg":"created new stream","id":"oi37jgrz"}
+{"time":"2025-03-07T22:51:46.6793559+05:30","level":"INFO","msg":"stream: started","id":"oi37jgrz"}
+{"time":"2025-03-07T22:51:46.6793559+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"oi37jgrz"}
+{"time":"2025-03-07T22:51:46.6793559+05:30","level":"INFO","msg":"handler: started","stream_id":"oi37jgrz"}
+{"time":"2025-03-07T22:51:46.6793559+05:30","level":"INFO","msg":"sender: started","stream_id":"oi37jgrz"}
+{"time":"2025-03-07T22:51:47.0441273+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T22:52:01.702624+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T22:52:01.7031308+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T22:52:02.7097548+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T22:52:02.7113165+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-10, summary, console lines 0-9","runtime_seconds":0.0010508}],"total_operations":1}}
+{"time":"2025-03-07T22:52:04.0725759+05:30","level":"INFO","msg":"stream: closing","id":"oi37jgrz"}
+{"time":"2025-03-07T22:52:04.0725759+05:30","level":"INFO","msg":"handler: closed","stream_id":"oi37jgrz"}
+{"time":"2025-03-07T22:52:04.0725759+05:30","level":"INFO","msg":"sender: closed","stream_id":"oi37jgrz"}
+{"time":"2025-03-07T22:52:04.0725759+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"oi37jgrz"}
+{"time":"2025-03-07T22:52:04.0762526+05:30","level":"INFO","msg":"stream: closed","id":"oi37jgrz"}

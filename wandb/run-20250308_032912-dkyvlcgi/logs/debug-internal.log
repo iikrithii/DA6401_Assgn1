@@ -1,0 +1,16 @@
+{"time":"2025-03-08T03:29:12.1539588+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_032912-dkyvlcgi\\logs\\debug-core.log"}
+{"time":"2025-03-08T03:29:12.28932+05:30","level":"INFO","msg":"created new stream","id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:12.28932+05:30","level":"INFO","msg":"stream: started","id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:12.2915617+05:30","level":"INFO","msg":"handler: started","stream_id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:12.2915617+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:12.2920427+05:30","level":"INFO","msg":"sender: started","stream_id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:12.7253206+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T03:29:40.356205+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T03:29:40.3569632+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T03:29:41.3593194+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6927882,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3905593,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-08T03:29:42.0001276+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T03:29:43.3799873+05:30","level":"INFO","msg":"stream: closing","id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:43.3799873+05:30","level":"INFO","msg":"handler: closed","stream_id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:43.3799873+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:43.3807719+05:30","level":"INFO","msg":"sender: closed","stream_id":"dkyvlcgi"}
+{"time":"2025-03-08T03:29:43.3841344+05:30","level":"INFO","msg":"stream: closed","id":"dkyvlcgi"}

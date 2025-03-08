@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.12.5",
+  "startedAt":  "2025-03-07T22:15:12.844226Z",
+  "program":  "C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\sweep_narrow.py",
+  "codePath":  "sweep_narrow.py",
+  "git":  {
+    "remote":  "https://github.com/iikrithii/DA6401_Assgn1.git",
+    "commit":  "a55b576e6ab8b1610f570d1aa06d84ca294dc401"
+  },
+  "email":  "ns25z040@smail.iitm.ac.in",
+  "root":  "C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1",
+  "host":  "LAPTOP-EI751FU2",
+  "executable":  "C:\\Users\\skrit\\miniconda3\\envs\\medllm\\python.exe",
+  "codePathLocal":  "sweep_narrow.py",
+  "cpu_count":  16,
+  "cpu_count_logical":  22,
+  "gpu":  "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1021821579264",
+      "used":  "303985983488"
+    }
+  },
+  "memory":  {
+    "total":  "16766066688"
+  },
+  "cpu":  {
+    "count":  16,
+    "countLogical":  22
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4050 Laptop GPU",
+      "memoryTotal":  "6439305216",
+      "cudaCores":  2560,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

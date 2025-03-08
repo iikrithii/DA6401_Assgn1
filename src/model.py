@@ -28,12 +28,12 @@ class NeuralNetwork:
         self.num_layers = num_layers
         self.output_size = output_size
 
-        # Load activation and its derivative from activations.py
+        # Load activation and its derivative from activation.py
         if activation not in activations:
             raise ValueError(f"Unsupported activation function '{activation}'")
         self.activation, self.activation_deriv = activations[activation]
 
-        # Load loss and its derivative from losses.py
+        # Load loss and its derivative from loss.py
         if loss_type not in loss_functions:
             raise ValueError(f"Unsupported loss function '{loss_type}'")
         self.loss_func, self.loss_deriv = loss_functions[loss_type]

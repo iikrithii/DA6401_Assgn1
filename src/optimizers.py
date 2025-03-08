@@ -64,11 +64,72 @@ class RMSprop:
             # Parameter update with weight decay
             parameters[key] -= self.learning_rate * (grad + self.weight_decay * parameters[key]) / (np.sqrt(self.s[key]) + self.epsilon)
 
+
+class Adam:
+    def __init__(self, parameters, learning_rate=1e-3, beta1=0.9, beta2=0.999, epsilon=1e-6, weight_decay=0.0):
+        self.learning_rate = learning_rate
+        self.beta1 = beta1
+        self.beta2 = beta2
+        self.epsilon = epsilon
+        self.weight_decay = weight_decay
+        self.t = 0
+        # Initialize first and second moment estimates for each parameter
+        self.m = {key: np.zeros_like(val) for key, val in parameters.items()}
+        self.v = {key: np.zeros_like(val) for key, val in parameters.items()}
+
+    def update(self, parameters, grads):
+        self.t += 1
+        for key in parameters.keys():
+            grad = grads.get("d" + key, 0)
+            # Update biased first moment estimate
+            self.m[key] = self.beta1 * self.m[key] + (1 - self.beta1) * grad
+            # Update biased second raw moment estimate
+            self.v[key] = self.beta2 * self.v[key] + (1 - self.beta2) * (grad ** 2)
+            # Compute bias-corrected first moment estimate
+            m_hat = self.m[key] / (1 - self.beta1 ** self.t)
+            # Compute bias-corrected second raw moment estimate
+            v_hat = self.v[key] / (1 - self.beta2 ** self.t)
+            # Update parameter with weight decay incorporated
+            parameters[key] -= self.learning_rate * (m_hat + self.weight_decay * parameters[key]) / (np.sqrt(v_hat) + self.epsilon)
+
+class Nadam:
+    def __init__(self, parameters, learning_rate=1e-3, beta1=0.9, beta2=0.99, epsilon=1e-6, weight_decay=0.0):
+        self.learning_rate = learning_rate
+        self.beta1 = beta1
+        self.beta2 = beta2
+        self.epsilon = epsilon
+        self.weight_decay = weight_decay
+        self.t = 0
+        # Initialize first and second moment estimates for each parameter
+        self.m = {key: np.zeros_like(val) for key, val in parameters.items()}
+        self.v = {key: np.zeros_like(val) for key, val in parameters.items()}
+
+    def update(self, parameters, grads):
+        self.t += 1
+        for key in parameters.keys():
+            grad = grads.get("d" + key, 0)
+            # Update biased first moment estimate
+            self.m[key] = self.beta1 * self.m[key] + (1 - self.beta1) * grad
+            # Update biased second raw moment estimate
+            self.v[key] = self.beta2 * self.v[key] + (1 - self.beta2) * (grad ** 2)
+            # Bias correction for first moment
+            m_hat = self.m[key] / (1 - self.beta1 ** self.t)
+            # Bias correction for second moment
+            v_hat = self.v[key] / (1 - self.beta2 ** self.t)
+            # Nadam update: combines Nesterov momentum with Adam
+            parameters[key] -= self.learning_rate * (
+                (self.beta1 * m_hat + (1 - self.beta1) * grad / (1 - self.beta1 ** self.t)) 
+                + self.weight_decay * parameters[key]
+            ) / (np.sqrt(v_hat) + self.epsilon)
+
+
 optimizer_dict = {
     "sgd": SGD,
     "momentum": Momentum,
     "nag": NAG,
     "rmsprop": RMSprop,
+    "adam": Adam,
+    "nadam": Nadam
 }
 
 def get_optimizer(opt_name, parameters, **kwargs):

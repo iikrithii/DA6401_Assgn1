@@ -1,0 +1,17 @@
+{"time":"2025-03-08T09:46:26.226544+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_094626-4zr4upqo\\logs\\debug-core.log"}
+{"time":"2025-03-08T09:46:26.3611402+05:30","level":"INFO","msg":"created new stream","id":"4zr4upqo"}
+{"time":"2025-03-08T09:46:26.3616793+05:30","level":"INFO","msg":"stream: started","id":"4zr4upqo"}
+{"time":"2025-03-08T09:46:26.3616793+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4zr4upqo"}
+{"time":"2025-03-08T09:46:26.3616793+05:30","level":"INFO","msg":"handler: started","stream_id":"4zr4upqo"}
+{"time":"2025-03-08T09:46:26.3616793+05:30","level":"INFO","msg":"sender: started","stream_id":"4zr4upqo"}
+{"time":"2025-03-08T09:46:26.7108125+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T09:47:26.9057519+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-08T09:47:30.0588444+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T09:47:30.0593489+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T09:47:31.0628874+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T09:47:31.070454+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 10-20, summary, console lines 9-19","runtime_seconds":0.0075666}],"total_operations":1}}
+{"time":"2025-03-08T09:47:32.431556+05:30","level":"INFO","msg":"stream: closing","id":"4zr4upqo"}
+{"time":"2025-03-08T09:47:32.431556+05:30","level":"INFO","msg":"handler: closed","stream_id":"4zr4upqo"}
+{"time":"2025-03-08T09:47:32.431556+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4zr4upqo"}
+{"time":"2025-03-08T09:47:32.4324319+05:30","level":"INFO","msg":"sender: closed","stream_id":"4zr4upqo"}
+{"time":"2025-03-08T09:47:32.4469601+05:30","level":"INFO","msg":"stream: closed","id":"4zr4upqo"}

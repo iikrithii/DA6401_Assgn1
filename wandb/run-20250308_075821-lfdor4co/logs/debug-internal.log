@@ -1,0 +1,16 @@
+{"time":"2025-03-08T07:58:21.4287537+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_075821-lfdor4co\\logs\\debug-core.log"}
+{"time":"2025-03-08T07:58:21.556961+05:30","level":"INFO","msg":"created new stream","id":"lfdor4co"}
+{"time":"2025-03-08T07:58:21.5579674+05:30","level":"INFO","msg":"stream: started","id":"lfdor4co"}
+{"time":"2025-03-08T07:58:21.5579674+05:30","level":"INFO","msg":"handler: started","stream_id":"lfdor4co"}
+{"time":"2025-03-08T07:58:21.5579674+05:30","level":"INFO","msg":"sender: started","stream_id":"lfdor4co"}
+{"time":"2025-03-08T07:58:21.5587817+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lfdor4co"}
+{"time":"2025-03-08T07:58:21.9019757+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T07:58:49.9273419+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T07:58:49.9278467+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T07:58:50.9011101+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T07:58:50.9431136+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 11-20, summary, console lines 11-19","runtime_seconds":0.0420035}],"total_operations":1}}
+{"time":"2025-03-08T07:58:52.2629772+05:30","level":"INFO","msg":"stream: closing","id":"lfdor4co"}
+{"time":"2025-03-08T07:58:52.2629772+05:30","level":"INFO","msg":"handler: closed","stream_id":"lfdor4co"}
+{"time":"2025-03-08T07:58:52.2639757+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lfdor4co"}
+{"time":"2025-03-08T07:58:52.2644581+05:30","level":"INFO","msg":"sender: closed","stream_id":"lfdor4co"}
+{"time":"2025-03-08T07:58:52.2680869+05:30","level":"INFO","msg":"stream: closed","id":"lfdor4co"}

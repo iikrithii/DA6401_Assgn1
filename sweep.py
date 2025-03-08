@@ -1,3 +1,7 @@
+import pprint
+import wandb
+from train import main 
+
 # Define the sweep configuration 
 sweep_config = {
     'method': 'bayes',
@@ -12,8 +16,13 @@ sweep_config['metric'] = metric
     
 # Define the hyperparameters (parameters) dictionary
 parameters_dict = {
+    # 'early_terminate': {
+    #     'type': 'hyperband',
+    #     'min_iter': 3,  
+    #     'max_iter': 10,  
+    # },
     'epochs': {
-        'values': [15]
+        'values': [5, 10]
     },
     'num_layers': {
         'values': [3, 4, 5]
@@ -28,10 +37,10 @@ parameters_dict = {
         'values': [1e-3, 1e-4]
     },
     'optimizer': {
-        'values': ["sgd", "momentum", "nag", "rmsprop"]
+        'values': ["sgd", "momentum", "nag", "rmsprop", "adam", "nadam"]
     },
     'batch_size': {
-        'values': [16, 32, 64]
+        'values': [16, 32, 64, 128]
     },
     'weight_init': {
         'values': ["random", "Xavier"]
@@ -41,14 +50,7 @@ parameters_dict = {
     },
 }
 sweep_config['parameters'] = parameters_dict
-
-
-
-import pprint
-import wandb
-from train import main 
-
-
 pprint.pprint(sweep_config)
-sweep_id= wandb.sweep(sweep_config, project="Assgn_1")
+sweep_id= wandb.sweep(sweep_config, project="DA6401_Assignment1")
+print(sweep_id)
 wandb.agent(sweep_id, function=main)

@@ -1,0 +1,16 @@
+{"time":"2025-03-08T01:09:58.8951097+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_010958-fuya1pu8\\logs\\debug-core.log"}
+{"time":"2025-03-08T01:09:59.0287891+05:30","level":"INFO","msg":"created new stream","id":"fuya1pu8"}
+{"time":"2025-03-08T01:09:59.0287891+05:30","level":"INFO","msg":"stream: started","id":"fuya1pu8"}
+{"time":"2025-03-08T01:09:59.0337915+05:30","level":"INFO","msg":"handler: started","stream_id":"fuya1pu8"}
+{"time":"2025-03-08T01:09:59.0337915+05:30","level":"INFO","msg":"sender: started","stream_id":"fuya1pu8"}
+{"time":"2025-03-08T01:09:59.0346114+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fuya1pu8"}
+{"time":"2025-03-08T01:09:59.3797901+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T01:10:22.665288+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T01:10:22.6657923+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T01:10:23.673317+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6935525,"progress":"394B/394B"},{"desc":"uploading config.yaml","runtime_seconds":0.2842774,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-08T01:10:24.3250278+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T01:10:25.720938+05:30","level":"INFO","msg":"stream: closing","id":"fuya1pu8"}
+{"time":"2025-03-08T01:10:25.720938+05:30","level":"INFO","msg":"handler: closed","stream_id":"fuya1pu8"}
+{"time":"2025-03-08T01:10:25.720938+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"fuya1pu8"}
+{"time":"2025-03-08T01:10:25.7222872+05:30","level":"INFO","msg":"sender: closed","stream_id":"fuya1pu8"}
+{"time":"2025-03-08T01:10:25.7264182+05:30","level":"INFO","msg":"stream: closed","id":"fuya1pu8"}

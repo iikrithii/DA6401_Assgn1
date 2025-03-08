@@ -1,0 +1,16 @@
+{"time":"2025-03-08T05:47:59.5637616+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_054759-wgvh55ya\\logs\\debug-core.log"}
+{"time":"2025-03-08T05:47:59.6977049+05:30","level":"INFO","msg":"created new stream","id":"wgvh55ya"}
+{"time":"2025-03-08T05:47:59.6977049+05:30","level":"INFO","msg":"stream: started","id":"wgvh55ya"}
+{"time":"2025-03-08T05:47:59.6984043+05:30","level":"INFO","msg":"sender: started","stream_id":"wgvh55ya"}
+{"time":"2025-03-08T05:47:59.6984043+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wgvh55ya"}
+{"time":"2025-03-08T05:47:59.6977049+05:30","level":"INFO","msg":"handler: started","stream_id":"wgvh55ya"}
+{"time":"2025-03-08T05:48:00.1513825+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T05:48:48.3428653+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T05:48:48.3433756+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T05:48:49.3505627+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6861367,"progress":"1.7KB/1.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6861367,"progress":"396B/396B"},{"desc":"uploading config.yaml","runtime_seconds":0.3763694,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T05:48:50.0028123+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T05:48:51.3801339+05:30","level":"INFO","msg":"stream: closing","id":"wgvh55ya"}
+{"time":"2025-03-08T05:48:51.3801339+05:30","level":"INFO","msg":"handler: closed","stream_id":"wgvh55ya"}
+{"time":"2025-03-08T05:48:51.3801339+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wgvh55ya"}
+{"time":"2025-03-08T05:48:51.3973095+05:30","level":"INFO","msg":"sender: closed","stream_id":"wgvh55ya"}
+{"time":"2025-03-08T05:48:51.4108674+05:30","level":"INFO","msg":"stream: closed","id":"wgvh55ya"}

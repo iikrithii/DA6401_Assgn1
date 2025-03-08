@@ -1,0 +1,16 @@
+{"time":"2025-03-08T00:25:45.8525767+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_002545-ncjwrgps\\logs\\debug-core.log"}
+{"time":"2025-03-08T00:25:45.9731068+05:30","level":"INFO","msg":"created new stream","id":"ncjwrgps"}
+{"time":"2025-03-08T00:25:45.9731068+05:30","level":"INFO","msg":"stream: started","id":"ncjwrgps"}
+{"time":"2025-03-08T00:25:45.9731068+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ncjwrgps"}
+{"time":"2025-03-08T00:25:45.9731068+05:30","level":"INFO","msg":"handler: started","stream_id":"ncjwrgps"}
+{"time":"2025-03-08T00:25:45.9745411+05:30","level":"INFO","msg":"sender: started","stream_id":"ncjwrgps"}
+{"time":"2025-03-08T00:25:46.5235219+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T00:26:19.8871073+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T00:26:19.8876124+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T00:26:20.847245+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T00:26:20.9030465+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 17-20, summary, console lines 17-19","runtime_seconds":0.0558015}],"total_operations":1}}
+{"time":"2025-03-08T00:26:22.2201387+05:30","level":"INFO","msg":"stream: closing","id":"ncjwrgps"}
+{"time":"2025-03-08T00:26:22.2201387+05:30","level":"INFO","msg":"handler: closed","stream_id":"ncjwrgps"}
+{"time":"2025-03-08T00:26:22.2201387+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ncjwrgps"}
+{"time":"2025-03-08T00:26:22.2204721+05:30","level":"INFO","msg":"sender: closed","stream_id":"ncjwrgps"}
+{"time":"2025-03-08T00:26:22.2357164+05:30","level":"INFO","msg":"stream: closed","id":"ncjwrgps"}

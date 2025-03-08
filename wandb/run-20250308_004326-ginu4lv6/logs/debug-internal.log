@@ -1,0 +1,16 @@
+{"time":"2025-03-08T00:43:26.1046423+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_004326-ginu4lv6\\logs\\debug-core.log"}
+{"time":"2025-03-08T00:43:26.2331896+05:30","level":"INFO","msg":"created new stream","id":"ginu4lv6"}
+{"time":"2025-03-08T00:43:26.2337175+05:30","level":"INFO","msg":"stream: started","id":"ginu4lv6"}
+{"time":"2025-03-08T00:43:26.2341198+05:30","level":"INFO","msg":"sender: started","stream_id":"ginu4lv6"}
+{"time":"2025-03-08T00:43:26.2341198+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ginu4lv6"}
+{"time":"2025-03-08T00:43:26.2341198+05:30","level":"INFO","msg":"handler: started","stream_id":"ginu4lv6"}
+{"time":"2025-03-08T00:43:26.6454475+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T00:44:12.1502807+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T00:44:12.1507915+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T00:44:13.1640949+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.610359,"progress":"1.7KB/1.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.2911853,"progress":"1.3KB/1.3KB"},{"desc":"uploading history steps 13-20, summary, console lines 13-19","runtime_seconds":0.1231561}],"total_operations":3}}
+{"time":"2025-03-08T00:44:13.8841484+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T00:44:15.2340805+05:30","level":"INFO","msg":"stream: closing","id":"ginu4lv6"}
+{"time":"2025-03-08T00:44:15.2340805+05:30","level":"INFO","msg":"handler: closed","stream_id":"ginu4lv6"}
+{"time":"2025-03-08T00:44:15.2340805+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ginu4lv6"}
+{"time":"2025-03-08T00:44:15.2348175+05:30","level":"INFO","msg":"sender: closed","stream_id":"ginu4lv6"}
+{"time":"2025-03-08T00:44:15.2378132+05:30","level":"INFO","msg":"stream: closed","id":"ginu4lv6"}

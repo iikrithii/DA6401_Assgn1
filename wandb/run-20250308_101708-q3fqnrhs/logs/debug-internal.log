@@ -1,0 +1,17 @@
+{"time":"2025-03-08T10:17:08.3237241+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_101708-q3fqnrhs\\logs\\debug-core.log"}
+{"time":"2025-03-08T10:17:08.4537003+05:30","level":"INFO","msg":"created new stream","id":"q3fqnrhs"}
+{"time":"2025-03-08T10:17:08.4537003+05:30","level":"INFO","msg":"stream: started","id":"q3fqnrhs"}
+{"time":"2025-03-08T10:17:08.4545638+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q3fqnrhs"}
+{"time":"2025-03-08T10:17:08.4550755+05:30","level":"INFO","msg":"sender: started","stream_id":"q3fqnrhs"}
+{"time":"2025-03-08T10:17:08.4550755+05:30","level":"INFO","msg":"handler: started","stream_id":"q3fqnrhs"}
+{"time":"2025-03-08T10:17:08.8180981+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T10:17:38.8693258+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-08T10:18:14.1605557+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T10:18:14.1611536+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T10:18:15.183849+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1393177,"progress":"1.3KB/1.3KB"}],"total_operations":1}}
+{"time":"2025-03-08T10:18:15.4055434+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T10:18:16.8039114+05:30","level":"INFO","msg":"stream: closing","id":"q3fqnrhs"}
+{"time":"2025-03-08T10:18:16.8039114+05:30","level":"INFO","msg":"handler: closed","stream_id":"q3fqnrhs"}
+{"time":"2025-03-08T10:18:16.8039114+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"q3fqnrhs"}
+{"time":"2025-03-08T10:18:16.8047156+05:30","level":"INFO","msg":"sender: closed","stream_id":"q3fqnrhs"}
+{"time":"2025-03-08T10:18:16.8092832+05:30","level":"INFO","msg":"stream: closed","id":"q3fqnrhs"}

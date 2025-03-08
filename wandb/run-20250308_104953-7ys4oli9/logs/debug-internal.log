@@ -1,0 +1,17 @@
+{"time":"2025-03-08T10:49:53.6902131+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_104953-7ys4oli9\\logs\\debug-core.log"}
+{"time":"2025-03-08T10:49:53.8167911+05:30","level":"INFO","msg":"created new stream","id":"7ys4oli9"}
+{"time":"2025-03-08T10:49:53.8167911+05:30","level":"INFO","msg":"stream: started","id":"7ys4oli9"}
+{"time":"2025-03-08T10:49:53.8167911+05:30","level":"INFO","msg":"handler: started","stream_id":"7ys4oli9"}
+{"time":"2025-03-08T10:49:53.8173314+05:30","level":"INFO","msg":"sender: started","stream_id":"7ys4oli9"}
+{"time":"2025-03-08T10:49:53.8173314+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7ys4oli9"}
+{"time":"2025-03-08T10:49:54.2005064+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T10:50:24.2523812+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-03-08T10:50:33.0506898+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T10:50:33.0511949+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T10:50:34.0068713+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T10:50:34.0578851+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 15-20, summary, console lines 15-19","runtime_seconds":0.0510138}],"total_operations":1}}
+{"time":"2025-03-08T10:50:35.4027106+05:30","level":"INFO","msg":"stream: closing","id":"7ys4oli9"}
+{"time":"2025-03-08T10:50:35.4027106+05:30","level":"INFO","msg":"handler: closed","stream_id":"7ys4oli9"}
+{"time":"2025-03-08T10:50:35.4027106+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7ys4oli9"}
+{"time":"2025-03-08T10:50:35.4037092+05:30","level":"INFO","msg":"sender: closed","stream_id":"7ys4oli9"}
+{"time":"2025-03-08T10:50:35.4074804+05:30","level":"INFO","msg":"stream: closed","id":"7ys4oli9"}

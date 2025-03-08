@@ -1,0 +1,16 @@
+{"time":"2025-03-08T04:50:27.9636678+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_045027-p6rcdtz5\\logs\\debug-core.log"}
+{"time":"2025-03-08T04:50:28.0937429+05:30","level":"INFO","msg":"created new stream","id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:28.0937429+05:30","level":"INFO","msg":"stream: started","id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:28.0937429+05:30","level":"INFO","msg":"handler: started","stream_id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:28.0937429+05:30","level":"INFO","msg":"sender: started","stream_id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:28.0937429+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:28.4756143+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T04:50:52.188872+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T04:50:52.1893761+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T04:50:53.201082+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6958442,"progress":"1.7KB/1.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.6958442,"progress":"393B/393B"},{"desc":"uploading config.yaml","runtime_seconds":0.3897141,"progress":"1.3KB/1.3KB"}],"total_operations":3}}
+{"time":"2025-03-08T04:50:53.8452228+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T04:50:55.2214676+05:30","level":"INFO","msg":"stream: closing","id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:55.2214676+05:30","level":"INFO","msg":"handler: closed","stream_id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:55.2214676+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:55.2220677+05:30","level":"INFO","msg":"sender: closed","stream_id":"p6rcdtz5"}
+{"time":"2025-03-08T04:50:55.2269373+05:30","level":"INFO","msg":"stream: closed","id":"p6rcdtz5"}

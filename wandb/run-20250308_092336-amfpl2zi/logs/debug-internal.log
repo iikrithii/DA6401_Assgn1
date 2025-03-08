@@ -1,0 +1,16 @@
+{"time":"2025-03-08T09:23:36.7553324+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_092336-amfpl2zi\\logs\\debug-core.log"}
+{"time":"2025-03-08T09:23:36.8945081+05:30","level":"INFO","msg":"created new stream","id":"amfpl2zi"}
+{"time":"2025-03-08T09:23:36.8950407+05:30","level":"INFO","msg":"stream: started","id":"amfpl2zi"}
+{"time":"2025-03-08T09:23:36.8950407+05:30","level":"INFO","msg":"sender: started","stream_id":"amfpl2zi"}
+{"time":"2025-03-08T09:23:36.8950407+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"amfpl2zi"}
+{"time":"2025-03-08T09:23:36.8950407+05:30","level":"INFO","msg":"handler: started","stream_id":"amfpl2zi"}
+{"time":"2025-03-08T09:23:37.4302382+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T09:24:01.9359647+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T09:24:01.9368099+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T09:24:02.9479033+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T09:24:02.9510372+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 12-20, summary, console lines 12-19","runtime_seconds":0.0031339}],"total_operations":1}}
+{"time":"2025-03-08T09:24:04.3722645+05:30","level":"INFO","msg":"stream: closing","id":"amfpl2zi"}
+{"time":"2025-03-08T09:24:04.3722645+05:30","level":"INFO","msg":"handler: closed","stream_id":"amfpl2zi"}
+{"time":"2025-03-08T09:24:04.3722645+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"amfpl2zi"}
+{"time":"2025-03-08T09:24:04.3766316+05:30","level":"INFO","msg":"sender: closed","stream_id":"amfpl2zi"}
+{"time":"2025-03-08T09:24:04.3832717+05:30","level":"INFO","msg":"stream: closed","id":"amfpl2zi"}

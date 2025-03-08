@@ -1,0 +1,11 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Epoch 1/10 - Train Loss: 2.3058, Train Acc: 0.0996, Val Loss: 2.3036, Val Acc: 0.1027
+Epoch 2/10 - Train Loss: 2.3035, Train Acc: 0.0999, Val Loss: 2.3029, Val Acc: 0.0942
+Epoch 3/10 - Train Loss: 2.3036, Train Acc: 0.0996, Val Loss: 2.3040, Val Acc: 0.1008
+Epoch 4/10 - Train Loss: 2.3035, Train Acc: 0.1015, Val Loss: 2.3049, Val Acc: 0.0942
+Epoch 5/10 - Train Loss: 2.3035, Train Acc: 0.1012, Val Loss: 2.3030, Val Acc: 0.1050
+Epoch 6/10 - Train Loss: 2.3034, Train Acc: 0.1013, Val Loss: 2.3031, Val Acc: 0.1055
+Epoch 7/10 - Train Loss: 2.3035, Train Acc: 0.0997, Val Loss: 2.3040, Val Acc: 0.1003
+Epoch 8/10 - Train Loss: 2.3034, Train Acc: 0.1003, Val Loss: 2.3043, Val Acc: 0.0925
+Epoch 9/10 - Train Loss: 2.3032, Train Acc: 0.1010, Val Loss: 2.3024, Val Acc: 0.1062
+Epoch 10/10 - Train Loss: 2.3035, Train Acc: 0.1000, Val Loss: 2.3025, Val Acc: 0.1008

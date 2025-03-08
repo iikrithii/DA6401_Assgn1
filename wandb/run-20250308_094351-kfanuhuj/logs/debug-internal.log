@@ -1,0 +1,16 @@
+{"time":"2025-03-08T09:43:51.9867856+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_094351-kfanuhuj\\logs\\debug-core.log"}
+{"time":"2025-03-08T09:43:52.1213185+05:30","level":"INFO","msg":"created new stream","id":"kfanuhuj"}
+{"time":"2025-03-08T09:43:52.1213185+05:30","level":"INFO","msg":"stream: started","id":"kfanuhuj"}
+{"time":"2025-03-08T09:43:52.1213185+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kfanuhuj"}
+{"time":"2025-03-08T09:43:52.1220298+05:30","level":"INFO","msg":"sender: started","stream_id":"kfanuhuj"}
+{"time":"2025-03-08T09:43:52.1220298+05:30","level":"INFO","msg":"handler: started","stream_id":"kfanuhuj"}
+{"time":"2025-03-08T09:43:52.4919582+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T09:44:15.683134+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T09:44:15.6836381+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T09:44:16.6518406+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T09:44:16.6997896+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 13-20, summary, console lines 13-19","runtime_seconds":0.047949}],"total_operations":1}}
+{"time":"2025-03-08T09:44:17.9992325+05:30","level":"INFO","msg":"stream: closing","id":"kfanuhuj"}
+{"time":"2025-03-08T09:44:17.9992325+05:30","level":"INFO","msg":"handler: closed","stream_id":"kfanuhuj"}
+{"time":"2025-03-08T09:44:17.9992325+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kfanuhuj"}
+{"time":"2025-03-08T09:44:18.000144+05:30","level":"INFO","msg":"sender: closed","stream_id":"kfanuhuj"}
+{"time":"2025-03-08T09:44:18.0158712+05:30","level":"INFO","msg":"stream: closed","id":"kfanuhuj"}

@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":8},"train_loss":0.2998806981449368,"_timestamp":1.7413661742034938e+09,"best_val_loss":0.33875568682090457,"best_val_accuracy":0.8775,"val_accuracy":0.8775,"best_train_accuracy":0.8911851851851852,"_step":10,"epoch":10,"_runtime":8.0331083,"best_train_loss":0.2998806981449368,"best_epoch":9,"train_accuracy":0.8911851851851852,"val_loss":0.33875568682090457}

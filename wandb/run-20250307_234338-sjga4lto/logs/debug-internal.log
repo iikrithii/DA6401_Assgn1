@@ -1,0 +1,16 @@
+{"time":"2025-03-07T23:43:38.4920273+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250307_234338-sjga4lto\\logs\\debug-core.log"}
+{"time":"2025-03-07T23:43:38.6238195+05:30","level":"INFO","msg":"created new stream","id":"sjga4lto"}
+{"time":"2025-03-07T23:43:38.6238195+05:30","level":"INFO","msg":"stream: started","id":"sjga4lto"}
+{"time":"2025-03-07T23:43:38.6243422+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sjga4lto"}
+{"time":"2025-03-07T23:43:38.6253535+05:30","level":"INFO","msg":"sender: started","stream_id":"sjga4lto"}
+{"time":"2025-03-07T23:43:38.6253535+05:30","level":"INFO","msg":"handler: started","stream_id":"sjga4lto"}
+{"time":"2025-03-07T23:43:38.9948387+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T23:44:24.1084113+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T23:44:24.1089165+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T23:44:25.1327046+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 12-20, summary, console lines 12-19","runtime_seconds":0.350626},{"desc":"uploading config.yaml","runtime_seconds":0.3378414,"progress":"1.3KB/1.3KB"}],"total_operations":2}}
+{"time":"2025-03-07T23:44:25.2105663+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T23:44:26.5685413+05:30","level":"INFO","msg":"stream: closing","id":"sjga4lto"}
+{"time":"2025-03-07T23:44:26.5685413+05:30","level":"INFO","msg":"handler: closed","stream_id":"sjga4lto"}
+{"time":"2025-03-07T23:44:26.5685413+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sjga4lto"}
+{"time":"2025-03-07T23:44:26.5729299+05:30","level":"INFO","msg":"sender: closed","stream_id":"sjga4lto"}
+{"time":"2025-03-07T23:44:26.5729299+05:30","level":"INFO","msg":"stream: closed","id":"sjga4lto"}

@@ -13,7 +13,7 @@ from src.optimizers import get_optimizer
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Train a Feedforward Neural Network on Fashion-MNIST or MNIST")
-    parser.add_argument('-wp', '--wandb_project', type=str, default="Assgn_1", help="Project name used to track experiments in Weights & Biases dashboard")
+    parser.add_argument('-wp', '--wandb_project', type=str, default="DA6401_Assignment1", help="Project name used to track experiments in Weights & Biases dashboard")
     parser.add_argument('-we', '--wandb_entity', type=str, default="ns25z040-indian-institute-of-technology-madras", help="Wandb Entity used to track experiments in Weights & Biases dashboard")
     parser.add_argument('-d', '--dataset', type=str, choices=["mnist", "fashion_mnist"], default="fashion_mnist", help="Dataset to use")
     parser.add_argument('-e', '--epochs', type=int, default=10, help="Number of epochs to train neural network")

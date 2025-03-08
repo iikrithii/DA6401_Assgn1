@@ -1,0 +1,16 @@
+{"time":"2025-03-08T00:22:13.5404397+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250308_002213-2v7roioz\\logs\\debug-core.log"}
+{"time":"2025-03-08T00:22:13.6623479+05:30","level":"INFO","msg":"created new stream","id":"2v7roioz"}
+{"time":"2025-03-08T00:22:13.6623479+05:30","level":"INFO","msg":"stream: started","id":"2v7roioz"}
+{"time":"2025-03-08T00:22:13.6627536+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2v7roioz"}
+{"time":"2025-03-08T00:22:13.6627536+05:30","level":"INFO","msg":"sender: started","stream_id":"2v7roioz"}
+{"time":"2025-03-08T00:22:13.6632633+05:30","level":"INFO","msg":"handler: started","stream_id":"2v7roioz"}
+{"time":"2025-03-08T00:22:14.0267307+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T00:22:50.6065484+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T00:22:50.6070547+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T00:22:51.5593925+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T00:22:51.6142454+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 16-20, summary, console lines 16-19","runtime_seconds":0.0548529}],"total_operations":1}}
+{"time":"2025-03-08T00:22:53.0255098+05:30","level":"INFO","msg":"stream: closing","id":"2v7roioz"}
+{"time":"2025-03-08T00:22:53.0255098+05:30","level":"INFO","msg":"handler: closed","stream_id":"2v7roioz"}
+{"time":"2025-03-08T00:22:53.0255098+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"2v7roioz"}
+{"time":"2025-03-08T00:22:53.0291385+05:30","level":"INFO","msg":"sender: closed","stream_id":"2v7roioz"}
+{"time":"2025-03-08T00:22:53.0427108+05:30","level":"INFO","msg":"stream: closed","id":"2v7roioz"}

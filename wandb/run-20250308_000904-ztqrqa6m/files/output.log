@@ -1,0 +1,22 @@
+Epoch 1/20 - Train Loss: 0.5149, Train Acc: 0.8182, Val Loss: 0.4176, Val Acc: 0.8505
+Epoch 2/20 - Train Loss: 0.4077, Train Acc: 0.8584, Val Loss: 0.5946, Val Acc: 0.8363
+Epoch 3/20 - Train Loss: 13.1002, Train Acc: 0.2274, Val Loss: 16.0567, Val Acc: 0.1283
+C:\Users\skrit\Documents\IntroDL\DA6401_Assgn1\src\optimizers.py:114: RuntimeWarning: overflow encountered in square
+  self.v[key] = self.beta2 * self.v[key] + (1 - self.beta2) * (grad ** 2)
+Epoch 4/20 - Train Loss: 16.6368, Train Acc: 0.0969, Val Loss: 17.1589, Val Acc: 0.0685
+Epoch 5/20 - Train Loss: 15.5360, Train Acc: 0.1566, Val Loss: 15.4580, Val Acc: 0.1608
+Epoch 6/20 - Train Loss: 17.0622, Train Acc: 0.0738, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 7/20 - Train Loss: 17.2537, Train Acc: 0.0633, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 8/20 - Train Loss: 17.2521, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 9/20 - Train Loss: 17.2535, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 10/20 - Train Loss: 17.2539, Train Acc: 0.0633, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 11/20 - Train Loss: 17.2534, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 12/20 - Train Loss: 17.2538, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 13/20 - Train Loss: 17.2540, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 14/20 - Train Loss: 17.2538, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 15/20 - Train Loss: 17.2536, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 16/20 - Train Loss: 17.2537, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 17/20 - Train Loss: 17.2536, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 18/20 - Train Loss: 17.2536, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 19/20 - Train Loss: 17.2532, Train Acc: 0.0634, Val Loss: 17.1343, Val Acc: 0.0698
+Epoch 20/20 - Train Loss: 17.2543, Train Acc: 0.0633, Val Loss: 17.1343, Val Acc: 0.0698

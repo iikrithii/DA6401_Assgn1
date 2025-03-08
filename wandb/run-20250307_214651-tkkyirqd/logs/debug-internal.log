@@ -1,0 +1,16 @@
+{"time":"2025-03-07T21:46:51.2193027+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250307_214651-tkkyirqd\\logs\\debug-core.log"}
+{"time":"2025-03-07T21:46:51.3584887+05:30","level":"INFO","msg":"created new stream","id":"tkkyirqd"}
+{"time":"2025-03-07T21:46:51.3584887+05:30","level":"INFO","msg":"stream: started","id":"tkkyirqd"}
+{"time":"2025-03-07T21:46:51.3584887+05:30","level":"INFO","msg":"handler: started","stream_id":"tkkyirqd"}
+{"time":"2025-03-07T21:46:51.3584887+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tkkyirqd"}
+{"time":"2025-03-07T21:46:51.3584887+05:30","level":"INFO","msg":"sender: started","stream_id":"tkkyirqd"}
+{"time":"2025-03-07T21:46:51.7161279+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T21:47:12.115105+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T21:47:12.1156187+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T21:47:13.1324507+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.7023446,"progress":"425B/425B"}],"total_operations":1}}
+{"time":"2025-03-07T21:47:13.7457534+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T21:47:15.2105586+05:30","level":"INFO","msg":"stream: closing","id":"tkkyirqd"}
+{"time":"2025-03-07T21:47:15.2105586+05:30","level":"INFO","msg":"handler: closed","stream_id":"tkkyirqd"}
+{"time":"2025-03-07T21:47:15.2105586+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tkkyirqd"}
+{"time":"2025-03-07T21:47:15.2115643+05:30","level":"INFO","msg":"sender: closed","stream_id":"tkkyirqd"}
+{"time":"2025-03-07T21:47:15.2143308+05:30","level":"INFO","msg":"stream: closed","id":"tkkyirqd"}

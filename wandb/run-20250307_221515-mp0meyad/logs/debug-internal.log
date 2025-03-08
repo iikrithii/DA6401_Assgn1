@@ -1,0 +1,16 @@
+{"time":"2025-03-07T22:15:15.1069644+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\skrit\\Documents\\IntroDL\\DA6401_Assgn1\\wandb\\run-20250307_221515-mp0meyad\\logs\\debug-core.log"}
+{"time":"2025-03-07T22:15:15.2634688+05:30","level":"INFO","msg":"created new stream","id":"mp0meyad"}
+{"time":"2025-03-07T22:15:15.264096+05:30","level":"INFO","msg":"stream: started","id":"mp0meyad"}
+{"time":"2025-03-07T22:15:15.264096+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mp0meyad"}
+{"time":"2025-03-07T22:15:15.264096+05:30","level":"INFO","msg":"handler: started","stream_id":"mp0meyad"}
+{"time":"2025-03-07T22:15:15.2646006+05:30","level":"INFO","msg":"sender: started","stream_id":"mp0meyad"}
+{"time":"2025-03-07T22:15:15.6496555+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-07T22:15:29.8129173+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-07T22:15:29.8134277+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-07T22:15:30.8194799+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-07T22:15:30.8348925+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-10, summary, console lines 0-9","runtime_seconds":0.0144051}],"total_operations":1}}
+{"time":"2025-03-07T22:15:32.3304762+05:30","level":"INFO","msg":"stream: closing","id":"mp0meyad"}
+{"time":"2025-03-07T22:15:32.3304762+05:30","level":"INFO","msg":"handler: closed","stream_id":"mp0meyad"}
+{"time":"2025-03-07T22:15:32.3304762+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mp0meyad"}
+{"time":"2025-03-07T22:15:32.3314845+05:30","level":"INFO","msg":"sender: closed","stream_id":"mp0meyad"}
+{"time":"2025-03-07T22:15:32.3341397+05:30","level":"INFO","msg":"stream: closed","id":"mp0meyad"}
