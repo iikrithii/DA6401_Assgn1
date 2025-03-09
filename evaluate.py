@@ -16,7 +16,7 @@ def extract_config_from_filename(filename):
     fhl_{num_layers}_hs_{hidden_size}_bs_{batch_size}_ep_{epochs}_ac_{activation}_o_{optimizer}_lr_{learning_rate}_wd_{weight_decay}_wi_{weight_init}_dataset_{dataset}_loss_{loss}.npy
     """
     pattern = (
-        r"fhl_(?P<num_layers>\d+)_hs_(?P<hidden_size>\d+)_bs_(?P<batch_size>\d+)_ep_(?P<epochs>\d+)_"
+        r"hl_(?P<num_layers>\d+)_hs_(?P<hidden_size>\d+)_bs_(?P<batch_size>\d+)_ep_(?P<epochs>\d+)_"
         r"ac_(?P<activation>[^_]+)_o_(?P<optimizer>[^_]+)_lr_(?P<learning_rate>[^_]+)_"
         r"wd_(?P<weight_decay>[^_]+)_wi_(?P<weight_init>[^_]+)_dataset_(?P<dataset>[^_]+)_loss_(?P<loss>[^\.]+)"
     )
@@ -34,52 +34,53 @@ def extract_config_from_filename(filename):
     else:
         raise ValueError("Could not parse configuration from filename.")
 
-def evaluate(weights_file):
+def evaluate(model_file, project, entity):
     """
-    Evaluates the trained model given the model filename.
-    
+    Evaluates the trained model on the test dataset.
+
     Args:
-        weights_file (str): Path to the saved model weights (.npy file)
-    
+        model_file (str): Path to the saved model weights (.npy file).
+        project (str): wandb project name.
+        entity (str): wandb entity name.
+
     Returns:
         test_loss, test_accuracy, confusion_matrix
     """
-    # Extract configuration from the filename
-    config_from_file = extract_config_from_filename(weights_file)
+    # Extract configuration from the model filename
+    config = extract_config_from_filename(model_file)
     
-    # Initialize wandb with the extracted configuration
-    wandb.init(project="DA6401_Assignment1",
-               entity="ns25z040-indian-institute-of-technology-madras",
-               config=config_from_file)
-    config = wandb.config
-    run_name = f"eval_fhl_{config.num_layers}_hs_{config.hidden_size}_ac_{config.activation}_loss_{config.loss}_dataset_{config.dataset}"
+    # Initialize wandb with the extracted configuration and provided project details
+    wandb.init(project=project,
+               entity=entity,
+               config=config)
+    run_name = f"eval_hl_{config['num_layers']}_hs_{config['hidden_size']}_ac_{config['activation']}_loss_{config['loss']}_dataset_{config['dataset']}"
     wandb.run.name = run_name
     wandb.run.save()
 
-    # Load the test dataset based on the extracted dataset name
-    if config.dataset == "fashion_mnist":
+    # Load test dataset based on the dataset extracted from the filename
+    if config['dataset'] == "fashion_mnist":
         (_, _), (X_test, y_test) = fashion_mnist.load_data()
     else:
         (_, _), (X_test, y_test) = mnist.load_data()
-
-    # Preprocess test data: flatten and normalize images
+    
+    # Preprocess test data: flatten images and normalize pixel values
     X_test = X_test.reshape(X_test.shape[0], -1) / 255.0
     num_classes = 10
     y_test_encoded = one_hot_encode(y_test, num_classes)
 
-    # Initialize the Neural Network with the extracted configuration
+    # Create Neural Network with the extracted configuration
     input_size = X_test.shape[1]
     output_size = num_classes
     nn = NeuralNetwork(input_size=input_size,
-                       hidden_size=config.hidden_size,
-                       num_layers=config.num_layers,
+                       hidden_size=config['hidden_size'],
+                       num_layers=config['num_layers'],
                        output_size=output_size,
-                       activation=config.activation,
-                       weight_init=config.weight_init,
-                       loss_type=config.loss)
+                       activation=config['activation'],
+                       weight_init=config['weight_init'],
+                       loss_type=config['loss'])
 
     # Load the saved model weights (using .item() to extract the dictionary)
-    best_weights = np.load(weights_file, allow_pickle=True).item()
+    best_weights = np.load(model_file, allow_pickle=True).item()
     nn.parameters = best_weights
 
     # Evaluate the model on the test set
@@ -100,27 +101,30 @@ def evaluate(weights_file):
 
     # Compute and plot confusion matrix
     cm = confusion_matrix(y_test, test_predictions)
-    if config.dataset == "fashion_mnist":
+    if config['dataset'] == "fashion_mnist":
         labels = [
             "T-shirt/top", "Trouser", "Pullover", "Dress", "Coat",
             "Sandal", "Shirt", "Sneaker", "Bag", "Ankle boot"
         ]
     else:
         labels = [str(i) for i in range(num_classes)]
-    plot_confusion_matrix(cm, labels, run_name="Test Confusion Matrix", project="DA6401_Assignment1")
+    plot_confusion_matrix(cm, labels, run_name="Test Confusion Matrix", project=project)
     plt.show()
 
     return test_loss, test_accuracy, cm
 
 def parse_arguments():
     parser = argparse.ArgumentParser(
-        description="Evaluate a trained Feedforward Neural Network on Fashion-MNIST or MNIST"
+        description="Evaluate a trained Feedforward Neural Network using a saved model file."
     )
-    parser.add_argument('-f', '--weights_file', type=str, required=True,
+    parser.add_argument('-f', '--model_file', type=str, required=True,
                         help="Path to the saved model weights (.npy file)")
-    args = parser.parse_args()
-    return args
+    parser.add_argument('-p', '--project', type=str, default="myprojectname",
+                        help="wandb project name (default: myprojectname)")
+    parser.add_argument('-e', '--entity', type=str, default="myname",
+                        help="wandb entity (default: myname)")
+    return parser.parse_args()
 
 if __name__ == "__main__":
     args = parse_arguments()
-    evaluate(args.weights_file)
+    evaluate(args.model_file, args.project, args.entity)
