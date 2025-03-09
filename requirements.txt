@@ -1,0 +1,6 @@
+numpy
+matplotlib
+wandb
+tensorflow>=2.0.0
+scikit-learn
+plotly
