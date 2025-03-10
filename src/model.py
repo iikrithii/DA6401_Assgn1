@@ -84,7 +84,6 @@ class NeuralNetwork:
 
         # For cross_entropy, apply softmax
         if self.loss_type == "cross_entropy":
-            # numerical stability trick
             exp_scores = np.exp(a_L - np.max(a_L, axis=1, keepdims=True))
             y_hat = exp_scores / np.sum(exp_scores, axis=1, keepdims=True)
         else:
