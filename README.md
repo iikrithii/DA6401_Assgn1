@@ -67,20 +67,8 @@ Below is an overview of the repository structure, which is organized to enhance 
 
 ---
 ```bash
-├── Q1_Sample.ipynb             
-# Notebook for visualizing sample images from the Fashion-MNIST dataset.
-├── Q2_Feedforward.ipynb        
-# Notebook for running a forward pass on the network and visualizing prediction probabilities.
-├── train.py                    
-# Main training script that orchestrates data loading, model training, logging, and model saving.
-├── evaluate.py                 
-# Script to evaluate a saved model on the test set and generate performance metrics.
 ├── models/                     
 # Directory for storing saved model files corresponding to the best performing configurations.
-├── sweep/                      
-# Folder containing sample configuration files for Wandb hyperparameter sweeps.
-├── requirements.txt
-# Contains all the required packages for running this project in an environment.
 └── src/                        
     ├── activation.py           
     # Contains all activation functions (sigmoid, tanh, ReLU, identity) and their derivatives.
@@ -92,6 +80,18 @@ Below is an overview of the repository structure, which is organized to enhance 
     # Contains implementations of different optimization algorithms (SGD, momentum, NAG, RMSprop, Adam, Nadam).
     └── utils.py                
     # Utility functions for one-hot encoding, image plotting, and visualization of confusion matrices.
+├── sweep/                      
+# Folder containing sample configuration files for Wandb hyperparameter sweeps.
+├── Q1_Sample.ipynb             
+# Notebook for visualizing sample images from the Fashion-MNIST dataset.
+├── Q2_Feedforward.ipynb        
+# Notebook for running a forward pass on the network and visualizing prediction probabilities.
+├── evaluate.py                 
+# Script to evaluate a saved model on the test set and generate performance metrics.
+├── requirements.txt
+# Contains all the required packages for running this project in an environment.
+├── train.py                    
+# Main training script that orchestrates data loading, model training, logging, and model saving.
 ```
 
 ## Implementation
