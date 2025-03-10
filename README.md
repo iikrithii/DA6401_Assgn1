@@ -1,7 +1,7 @@
 # DA6401 - Introduction to Deep Learning
 ## Assignment 1: Feedforward Neural Network for Fashion-MNIST
 
-This repository contains the complete source code, notebooks, and reports for an assignment where a custom feedforward neural network is implemented from scratch. The project demonstrates how to build a neural network without relying on automatic differentiation libraries and emphasizes modularity, hyperparameter tuning, and experiment tracking via Weights & Biases (Wandb). The detailed report on the implementation is recorded on Wandb and can be accessed here ([Guide to Report](https://wandb.ai/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTY5NzMxNQ/edit?draftId=VmlldzoxMTcxMjAzNw==)).
+This repository contains the complete source code, notebooks, and reports for an assignment where a custom feedforward neural network is implemented from scratch. The project demonstrates how to build a neural network without relying on automatic differentiation libraries and emphasizes modularity, hyperparameter tuning, and experiment tracking via Weights & Biases (Wandb). The detailed report on the implementation is recorded on Wandb and can be accessed here ([Guide to Report]([https://wandb.ai/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTY5NzMxNQ/edit?draftId=VmlldzoxMTcxMjAzNw==)](https://wandb.ai/ns25z040-indian-institute-of-technology-madras/DA6401_Assignment1/reports/DA6401-Assignment-1--VmlldzoxMTY5NzMxNQ?accessToken=6mfx6g8axqfkjbacx2umk9ln0a0cw43hwbwwf998bseq81wtk0dns8pxt0bj66sy)).
 
 ---
 
