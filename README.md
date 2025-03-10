@@ -141,7 +141,7 @@ These functions have been modularized to work with varying input arguments for b
 
 2. **Model Initialization:**  
    - The `NeuralNetwork` class is instantiated with user-defined hyperparameters (number of layers, hidden size, activation function, etc.).
-   - Model parameters (weights and biases) are initialized using either Xavier or a random method.
+   - Model parameters (weights and biases) are initialized using either [Xavier](https://pyimagesearch.com/2021/05/06/understanding-weight-initialization-for-neural-networks/) or random method.
 
 3. **Training Loop:**  
    - **Shuffling and Batching:** Each epoch begins with shuffling the training data and dividing it into mini-batches.
