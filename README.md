@@ -8,7 +8,7 @@ This repository contains the complete source code, notebooks, and reports for an
 ## Table of Contents
 
 - [Overview](#overview)
-    - [Problem Statement](#problem-statement-and-objectives)
+    - [Problem Statement](#problem-statement)
     - [Deliverables](#deliverables)
 - [File Structure](#file-structure)
 - [Implementation](#implementation)
@@ -16,7 +16,7 @@ This repository contains the complete source code, notebooks, and reports for an
   - [Question 2: Feedforward Neural Network](#question-2-feedforward-neural-network)
   - [Question 3: Backpropagation and Optimization](#question-3-backpropagation-and-optimization)
   - [Question 4: Implementing Neural Network](#question-4-implementing-neural-network)
-  - [Question 5-6: Conducting Sweeps](#question-5-conducting-sweeps)
+  - [Question 5-6: Conducting Sweeps](#question-5-6-conducting-sweeps)
   - [Question 7: Evaluation](#question-7-evaluation)
 
 - [Command-Line Arguments](#command-line-arguments)
