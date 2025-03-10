@@ -117,7 +117,7 @@ Below is an overview of the repository structure, which is organized to enhance 
   The `NeuralNetwork` class is the core of the model configuration:
   - **Forward Pass:** The `forward_pass()` method computes intermediate activations and the final output. It supports both softmax (for cross-entropy loss) and linear outputs (for mean squared error).
   - **Backward Pass:** The `backward_pass()` method calculates the gradients for all layers by applying the chain rule using the derivatives of the activation and loss functions.
-  - **Compute Losss: ** The `compute_loss()` method takes in the loss type from the argument, calls the losses file and calculates the loss. 
+  - **Compute Loss:** The `compute_loss()` method takes in the loss type from the argument, calls the losses file and calculates the loss. 
   - **Forward:** The `forward()` method simply returns only the probabilities for the function to evaluate a simple forward network to output the final values/probabilities. 
 
 These functions have been modularized to work with varying input arguments for batch sizes, hidden layers, neuron sizes, optimzers, activations and so on. This ensures the scalability and generalisability of these functions during implementation. 
