@@ -219,7 +219,7 @@ pip install -r requirements.txt
 You can then define your own model parameter configurations based on the arguments as defined in the [command line arguments](#command-line-arguments). Here is a template for the same:
 
 ```bash
-python train.py -wp "project-name" -d "dataset" -e epochs -b <batch_size> -l "loss" -o "optimizer" -lr <learning_rate> -nhl <num_layers> -sz <hidden_size> -a "activation" -ev <evaluation>
+python train.py -wp "project-name" -we "entity-name" -d "dataset" -e epochs -b <batch_size> -l "loss" -o "optimizer" -lr <learning_rate> -nhl <num_layers> -sz <hidden_size> -a "activation" -ev <evaluation>
 ```
 
 ### Adding New Loss Functions
